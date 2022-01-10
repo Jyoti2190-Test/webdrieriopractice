@@ -22,7 +22,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        './features/**/*.feature'
+        './Test/features/**/*.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -111,7 +111,7 @@ export const config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone' , ], skipSeleniumInstall:true,
+    services: ['selenium-standalone',], skipSeleniumInstall: true,
 
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -119,7 +119,7 @@ export const config = {
     //
     // Make sure you have the wdio adapter package for the specific framework installed
     // before running any tests.
-    framework: 'cucumber', 
+    framework: 'cucumber',
     //
     // The number of times to retry the entire specfile when it fails as a whole
     // specFileRetries: 1,
@@ -140,7 +140,7 @@ export const config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./features/step-definitions/*.js'],
+        require: ['./test/step-definitions/*.js'],
         requireModule: [
             '@babel/register'
         ],
@@ -326,4 +326,5 @@ export const config = {
     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
+    debug: true
 }
