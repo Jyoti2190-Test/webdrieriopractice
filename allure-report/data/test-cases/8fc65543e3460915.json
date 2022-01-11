@@ -1,0 +1,125 @@
+{
+  "uid" : "8fc65543e3460915",
+  "name" : "Given the user is on login page",
+  "fullName" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials.Given the user is on login page",
+  "historyId" : "d4f9ea6d846f0f58092c7aade0e08035",
+  "time" : {
+    "start" : 1641815538985,
+    "stop" : 1641815538986,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"the user is on login page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"the user is on login page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test\\features\\login.feature):1:1\n                \tat Scenario(The one where user logs in using invalid credentials):11:5\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given the user is on login page"
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec75a8c653e0b295",
+      "status" : "broken",
+      "statusDetails" : "Step \"the user is on login page\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1641815538971,
+        "stop" : 1641815538972,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2ae3cc8c90aa1309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808974914,
+        "stop" : 1641808975427,
+        "duration" : 513
+      }
+    }, {
+      "uid" : "320b32c569e8a85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808972621,
+        "stop" : 1641808973020,
+        "duration" : 399
+      }
+    }, {
+      "uid" : "e68b086e48b7d7d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803298316,
+        "stop" : 1641803298658,
+        "duration" : 342
+      }
+    }, {
+      "uid" : "827398c12a64efbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803296810,
+        "stop" : 1641803297182,
+        "duration" : 372
+      }
+    }, {
+      "uid" : "9074267541a11b98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803025607,
+        "stop" : 1641803025998,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "99829bcd8d22c645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803023999,
+        "stop" : 1641803024373,
+        "duration" : 374
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8fc65543e3460915.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

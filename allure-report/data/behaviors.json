@@ -3,7 +3,7 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "Given user is on homepage",
-    "uid" : "a8cae3d24aa31fbc",
+    "uid" : "926695f8d749c74c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -20,7 +20,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "When Create Category is available",
-    "uid" : "3fe5e9108edbc4ce",
+    "uid" : "916eeff6922c2725",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -37,7 +37,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "When Click on Create Cqtegory",
-    "uid" : "2e8596710dcaaf95",
+    "uid" : "fa4443061d7a48c4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -54,7 +54,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then New Category Tab should be available",
-    "uid" : "6a861617c4b495f9",
+    "uid" : "e74324e4986176ec",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -71,7 +71,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "",
-    "uid" : "24337e9ff107e1fa",
+    "uid" : "5469d854fde1fb38",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -88,7 +88,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Given the user is on login page",
-    "uid" : "75b7c5a1a496255c",
+    "uid" : "f695455556e0addb",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -104,25 +104,8 @@
     "retriesStatusChange" : true,
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
-    "name" : "Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
-    "uid" : "ab083926581bb691",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1641815538938,
-      "stop" : 1641815538939,
-      "duration" : 1
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : true,
-    "parameters" : [ "chrome-97.0.4692.71" ]
-  }, {
     "name" : "When the user enters username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
-    "uid" : "e7560ffbe6124e4f",
+    "uid" : "d061d944a36ef0a5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -139,7 +122,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "And clicks on login button",
-    "uid" : "5443011f13ca6e5e",
+    "uid" : "6452001d38ef613",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -155,8 +138,25 @@
     "retriesStatusChange" : true,
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
+    "name" : "Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+    "uid" : "617d7fe497bd9b4a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1641815538938,
+      "stop" : 1641815538939,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
     "name" : "",
-    "uid" : "20333ec961abb863",
+    "uid" : "5f40f438d81b4955",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -173,7 +173,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "When the user enters username as \"james\" and password as \"SuperSecretPassword!\"",
-    "uid" : "284ef196c6db9a4",
+    "uid" : "ec2c1b87a910b8e2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -190,7 +190,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then the user must remain on login page displaying a message \"Your username is invalid!\"",
-    "uid" : "2b1cfc88ef16fdf7",
+    "uid" : "da753a5979de6336",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -207,7 +207,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Given the user is on login page",
-    "uid" : "fef49d019e8565fb",
+    "uid" : "8fc65543e3460915",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -224,7 +224,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "And clicks on login button",
-    "uid" : "f49b4fda5899167a",
+    "uid" : "4721af211495e967",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -241,7 +241,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then the user must remain on login page displaying a message \"Your password is invalid!\"",
-    "uid" : "3a7eace16adf656d",
+    "uid" : "446236c6b92b7a86",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -258,7 +258,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "When the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
-    "uid" : "ee9627ded516e566",
+    "uid" : "26425243f2d813a2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -275,7 +275,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "",
-    "uid" : "eb0f4a204ebcbd4a",
+    "uid" : "ebafa5db8d2d6d10",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -292,7 +292,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"Test\" , \"a24\"",
-    "uid" : "e140688f55a2f37a",
+    "uid" : "6de74a3ae3df7a90",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -309,7 +309,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"Test1\" , \"a24\"",
-    "uid" : "7300f85e093df777",
+    "uid" : "e4436b9a39a55311",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -326,7 +326,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"Test3\" , \"a24\"",
-    "uid" : "a4b6e8bbc4d8ded6",
+    "uid" : "71cfeff47829281f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
@@ -343,7 +343,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"Test3\" and click Search",
-    "uid" : "1ae73455d4fd6399",
+    "uid" : "13d57fd2baf37106",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -360,7 +360,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"Test4\" , \"a24\"",
-    "uid" : "f479addbd3b0e039",
+    "uid" : "53f07a95622fef32",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -377,7 +377,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"Test4\" and click Search",
-    "uid" : "c7b7b0d5fc3a5529",
+    "uid" : "ccbf688f1b13c144",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -394,7 +394,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"Test5\" , \"a24\"",
-    "uid" : "f76531fec4affa19",
+    "uid" : "237dcebde6923ca9",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
@@ -411,7 +411,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"Test5\" and click Search",
-    "uid" : "f2a2d392bf4764c8",
+    "uid" : "7738201632042862",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -428,7 +428,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"Test6\" , \"a24\"",
-    "uid" : "cad73a269c29319f",
+    "uid" : "82ac5904e4c0fc65",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -445,7 +445,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"Test6\" and click Search",
-    "uid" : "108d2b1bc14d4c0f",
+    "uid" : "ecf969764bc9611a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -462,7 +462,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"Test7\" , \"a24\"",
-    "uid" : "97bfdfea6344cf0e",
+    "uid" : "fe91b275971ab84d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -479,7 +479,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"Test7\" and click Search",
-    "uid" : "91cf356ad30c3e5f",
+    "uid" : "d79d7fcc8d0baaf5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -496,7 +496,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc1\" , \"a24\"",
-    "uid" : "2e5e6e49e8ba4579",
+    "uid" : "71d630e9e2065c6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -513,7 +513,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc1\" and click Search",
-    "uid" : "71cbb427a6ed5d09",
+    "uid" : "d72c64a48adb0a8e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -530,7 +530,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc2\" , \"a24\"",
-    "uid" : "d0cde876712f9400",
+    "uid" : "322990da9ef95ddc",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -547,7 +547,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc2\" and click Search",
-    "uid" : "5292c5fb002c0fa9",
+    "uid" : "1ca625554d7cb5c7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -564,7 +564,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc4\" , \"a24\"",
-    "uid" : "86fe67ad1b054fd",
+    "uid" : "d3f0b08685a33616",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -581,7 +581,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc4\" and click Search",
-    "uid" : "fc3575e648331559",
+    "uid" : "3f3a35fba113b89a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -598,7 +598,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc5\" , \"a24\"",
-    "uid" : "91921df834dcc86",
+    "uid" : "5566cb652bba8dff",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -615,7 +615,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc5\" and click Search",
-    "uid" : "d3d83b77cbb13cfc",
+    "uid" : "37feaebaa256071e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -632,7 +632,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc6\" , \"a24\"",
-    "uid" : "ffcb53b39218ffb2",
+    "uid" : "2365790f9b931c89",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -649,7 +649,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc6\" and click Search",
-    "uid" : "3458f614a2fef4e9",
+    "uid" : "26c9feed3f93bd6c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -666,7 +666,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc7\" , \"a24\"",
-    "uid" : "8f301bad53a66f7",
+    "uid" : "c3a027a45502adc2",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -683,7 +683,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc7\" and click Search",
-    "uid" : "2347d140a10836ce",
+    "uid" : "c391a655a1ccf645",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -700,7 +700,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc8\" , \"a24\"",
-    "uid" : "121bf9b12b33f53a",
+    "uid" : "b820fec8b72d8e55",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -717,7 +717,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc8\" and click Search",
-    "uid" : "5fd455aa345790e5",
+    "uid" : "e700e733762c2575",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -734,7 +734,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc9\" , \"a24\"",
-    "uid" : "2c5a509f3e121778",
+    "uid" : "7bd484e10e527875",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -751,7 +751,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc9\" and click Search",
-    "uid" : "359618fa44110e8b",
+    "uid" : "a2efb9cfee8bb4b0",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -768,7 +768,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc10\" , \"a24\"",
-    "uid" : "a2568d9517829d19",
+    "uid" : "faad128513e4034f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -785,7 +785,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc10\" and click Search",
-    "uid" : "b0bac2539f393eb",
+    "uid" : "11e7febaded0595b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -802,7 +802,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc11\" , \"a24\"",
-    "uid" : "9f2acd592228c6ee",
+    "uid" : "7e90a337b4b2d09f",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
@@ -819,7 +819,7 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc11\" and click Search",
-    "uid" : "c603c7a0c1cef55b",
+    "uid" : "3be42f84610db3f6",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
@@ -836,172 +836,172 @@
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Given user is on homepage",
-    "uid" : "dc8340269b6093ac",
+    "uid" : "cd9067022cbbe34",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1641896595120,
-      "stop" : 1641896620275,
-      "duration" : 25155
+      "start" : 1641915687196,
+      "stop" : 1641915710486,
+      "duration" : 23290
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 52,
+    "retriesCount" : 53,
     "retriesStatusChange" : true,
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "When Create Category is available",
-    "uid" : "4907bf7f3ae151dd",
+    "uid" : "bf6b2aa01c2b76e7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1641896620276,
-      "stop" : 1641896621027,
-      "duration" : 751
+      "start" : 1641915710487,
+      "stop" : 1641915711269,
+      "duration" : 782
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 52,
+    "retriesCount" : 53,
     "retriesStatusChange" : true,
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Click on Create Category",
-    "uid" : "410c897ab1045b07",
+    "uid" : "43ecb0f99281c1c7",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1641896621028,
-      "stop" : 1641896625997,
-      "duration" : 4969
+      "start" : 1641915711269,
+      "stop" : 1641915716206,
+      "duration" : 4937
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 52,
+    "retriesCount" : 53,
     "retriesStatusChange" : true,
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then New Category Tab should be available",
-    "uid" : "d04cea44d5c3847f",
+    "uid" : "7a3b876f86b7b219",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1641896625998,
-      "stop" : 1641896630784,
-      "duration" : 4786
+      "start" : 1641915716206,
+      "stop" : 1641915717269,
+      "duration" : 1063
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 53,
+    "retriesStatusChange" : true,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "",
+    "uid" : "4c704e122032367c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641915717270,
+      "stop" : 1641915717271,
+      "duration" : 1
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 107,
+    "retriesStatusChange" : false,
+    "parameters" : [ "chrome-97.0.4692.71" ]
+  }, {
+    "name" : "Given user is on homepage",
+    "uid" : "e47d11016116cbac",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1641915717301,
+      "stop" : 1641915722431,
+      "duration" : 5130
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
     "retriesCount" : 52,
-    "retriesStatusChange" : true,
-    "parameters" : [ "chrome-97.0.4692.71" ]
-  }, {
-    "name" : "",
-    "uid" : "a53c68caa7a21b4e",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1641896630784,
-      "stop" : 1641896630786,
-      "duration" : 2
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 105,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-97.0.4692.71" ]
-  }, {
-    "name" : "Given user is on homepage",
-    "uid" : "3ee658dffcd507b3",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1641896630810,
-      "stop" : 1641896635960,
-      "duration" : 5150
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 51,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Click on Create Category",
-    "uid" : "7c3318d16696fff",
+    "uid" : "3622203b4736f0b4",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1641896635960,
-      "stop" : 1641896636087,
-      "duration" : 127
+      "start" : 1641915722431,
+      "stop" : 1641915722619,
+      "duration" : 188
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 51,
+    "retriesCount" : 52,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Enter the \"abc12\" , \"a24\"",
-    "uid" : "a8dafa006eb52596",
+    "uid" : "bbc771bc277a6126",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "failed",
     "time" : {
-      "start" : 1641896636088,
-      "stop" : 1641896644160,
-      "duration" : 8072
+      "start" : 1641915722620,
+      "stop" : 1641915734010,
+      "duration" : 11390
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "Then Input the details for search name \"abc12\" and click Search",
-    "uid" : "7f66d5faa10863f3",
+    "uid" : "defe7a8eec9ecf86",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
+    "status" : "unknown",
     "time" : {
-      "start" : 1641896644160,
-      "stop" : 1641896645667,
-      "duration" : 1507
+      "start" : 1641915734010,
+      "stop" : 0,
+      "duration" : -1641915734010
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 0,
-    "retriesStatusChange" : false,
+    "retriesCount" : 1,
+    "retriesStatusChange" : true,
     "parameters" : [ "chrome-97.0.4692.71" ]
   }, {
     "name" : "",
-    "uid" : "5533f59e9622e88a",
+    "uid" : "dc31067f01d9c062",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1641896645667,
-      "stop" : 1641896645667,
+      "start" : 1641915734011,
+      "stop" : 1641915734011,
       "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 103,
+    "retriesCount" : 105,
     "retriesStatusChange" : false,
     "parameters" : [ "chrome-97.0.4692.71" ]
   } ]

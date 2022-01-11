@@ -1,0 +1,664 @@
+{
+  "uid" : "cd9067022cbbe34",
+  "name" : "Given user is on homepage",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window.Given user is on homepage",
+  "historyId" : "46902232318430147ae4f311283e242c",
+  "time" : {
+    "start" : 1641915687196,
+    "stop" : 1641915710486,
+    "duration" : 23290
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 53,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641915687199,
+        "stop" : 1641915697690,
+        "duration" : 10491
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a5d0b61847b91ff9",
+        "name" : "Request",
+        "source" : "a5d0b61847b91ff9.json",
+        "type" : "application/json",
+        "size" : 182
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1641915697690,
+        "stop" : 1641915697937,
+        "duration" : 247
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c92a43c6c8599de5",
+        "name" : "Response",
+        "source" : "c92a43c6c8599de5.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641915702952,
+        "stop" : 1641915702980,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6c36f5b8062de9d2",
+        "name" : "Response",
+        "source" : "6c36f5b8062de9d2.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641915703456,
+        "stop" : 1641915703484,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a16a0106d81d2ae",
+        "name" : "Response",
+        "source" : "4a16a0106d81d2ae.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641915703963,
+        "stop" : 1641915703986,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c80e0d93a52384a7",
+        "name" : "Response",
+        "source" : "c80e0d93a52384a7.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641915704454,
+        "stop" : 1641915704621,
+        "duration" : 167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f78106acf8ed05",
+        "name" : "Response",
+        "source" : "9f78106acf8ed05.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641915704959,
+        "stop" : 1641915710481,
+        "duration" : 5522
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e438e6da305929c",
+        "name" : "Response",
+        "source" : "7e438e6da305929c.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given user is on homepage"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bd1362c7cbdabef8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896595120,
+        "stop" : 1641896620275,
+        "duration" : 25155
+      }
+    }, {
+      "uid" : "233394e53347d0a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641893427403,
+        "stop" : 1641893449759,
+        "duration" : 22356
+      }
+    }, {
+      "uid" : "c1f4ef223a964f1d",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641893249562,
+        "stop" : 1641893272619,
+        "duration" : 23057
+      }
+    }, {
+      "uid" : "687086b3da1e9430",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641892933748,
+        "stop" : 1641892956570,
+        "duration" : 22822
+      }
+    }, {
+      "uid" : "5b56582f2a497e0b",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641889055445,
+        "stop" : 1641889075146,
+        "duration" : 19701
+      }
+    }, {
+      "uid" : "8537491618aa1493",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641888838539,
+        "stop" : 1641888857615,
+        "duration" : 19076
+      }
+    }, {
+      "uid" : "22f76da80d85af1c",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641888610094,
+        "stop" : 1641888629643,
+        "duration" : 19549
+      }
+    }, {
+      "uid" : "24bf5c1eed71f52d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641888221953,
+        "stop" : 1641888254421,
+        "duration" : 32468
+      }
+    }, {
+      "uid" : "de065eae8c21bbe9",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641887175507,
+        "stop" : 1641887193865,
+        "duration" : 18358
+      }
+    }, {
+      "uid" : "5cd20d78d7a1c1c8",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641886572484,
+        "stop" : 1641886590949,
+        "duration" : 18465
+      }
+    }, {
+      "uid" : "cb02fa2d9b00ba77",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641886453655,
+        "stop" : 1641886472617,
+        "duration" : 18962
+      }
+    }, {
+      "uid" : "dd6660bb65da208e",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641886106535,
+        "stop" : 1641886125541,
+        "duration" : 19006
+      }
+    }, {
+      "uid" : "36a87e6737220b1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641885709091,
+        "stop" : 1641885727656,
+        "duration" : 18565
+      }
+    }, {
+      "uid" : "749f1783432c5284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641885531880,
+        "stop" : 1641885549690,
+        "duration" : 17810
+      }
+    }, {
+      "uid" : "e95d843b47ac70e2",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641885366103,
+        "stop" : 1641885386213,
+        "duration" : 20110
+      }
+    }, {
+      "uid" : "f28f3013be542433",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641885181914,
+        "stop" : 1641885200111,
+        "duration" : 18197
+      }
+    }, {
+      "uid" : "63465ec87a368672",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641884995161,
+        "stop" : 1641885014565,
+        "duration" : 19404
+      }
+    }, {
+      "uid" : "a3e1733ed1c23699",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641884666373,
+        "stop" : 1641884685254,
+        "duration" : 18881
+      }
+    }, {
+      "uid" : "d2d50d9c2ccff6d3",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641884393483,
+        "stop" : 1641884412419,
+        "duration" : 18936
+      }
+    }, {
+      "uid" : "76201b4cda664082",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641884165135,
+        "stop" : 1641884184711,
+        "duration" : 19576
+      }
+    }, {
+      "uid" : "6b4d225c9e83b41",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641883950591,
+        "stop" : 1641883969443,
+        "duration" : 18852
+      }
+    }, {
+      "uid" : "ebdaa951d82f4086",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641883550454,
+        "stop" : 1641883570257,
+        "duration" : 19803
+      }
+    }, {
+      "uid" : "96fb179f360b35d5",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641880825364,
+        "stop" : 1641880844301,
+        "duration" : 18937
+      }
+    }, {
+      "uid" : "710a6fcfb52e7f4a",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641880525382,
+        "stop" : 1641880545551,
+        "duration" : 20169
+      }
+    }, {
+      "uid" : "3d79c660d993a1e7",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641879062345,
+        "stop" : 1641879081696,
+        "duration" : 19351
+      }
+    }, {
+      "uid" : "32aef4badeab7a63",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641878745929,
+        "stop" : 1641878765652,
+        "duration" : 19723
+      }
+    }, {
+      "uid" : "3ffba34621715915",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641877382910,
+        "stop" : 1641877401432,
+        "duration" : 18522
+      }
+    }, {
+      "uid" : "972c161770ca75e8",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641877156940,
+        "stop" : 1641877175595,
+        "duration" : 18655
+      }
+    }, {
+      "uid" : "aff3fd03a9ea74f1",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641876821323,
+        "stop" : 1641876842363,
+        "duration" : 21040
+      }
+    }, {
+      "uid" : "596eaa2e91149557",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641876662404,
+        "stop" : 1641876683816,
+        "duration" : 21412
+      }
+    }, {
+      "uid" : "bf97c85380007e75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641875480614,
+        "stop" : 1641875492571,
+        "duration" : 11957
+      }
+    }, {
+      "uid" : "41f69671d3834189",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641836555217,
+        "stop" : 1641836566177,
+        "duration" : 10960
+      }
+    }, {
+      "uid" : "bc29cf40284aefa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641836380875,
+        "stop" : 1641836392033,
+        "duration" : 11158
+      }
+    }, {
+      "uid" : "a4f2234752f5b8fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641836213853,
+        "stop" : 1641836225349,
+        "duration" : 11496
+      }
+    }, {
+      "uid" : "c0868b711c31cd25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641835867322,
+        "stop" : 1641835879122,
+        "duration" : 11800
+      }
+    }, {
+      "uid" : "47658b9dce5fd3ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641835431924,
+        "stop" : 1641835442919,
+        "duration" : 10995
+      }
+    }, {
+      "uid" : "cd71b4c25da942fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641835213334,
+        "stop" : 1641835225396,
+        "duration" : 12062
+      }
+    }, {
+      "uid" : "5cd2dcb06b6dfd7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641835093118,
+        "stop" : 1641835104001,
+        "duration" : 10883
+      }
+    }, {
+      "uid" : "72948c97876efc29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641834994087,
+        "stop" : 1641835008557,
+        "duration" : 14470
+      }
+    }, {
+      "uid" : "1b099269e65a2063",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641834393701,
+        "stop" : 1641834404596,
+        "duration" : 10895
+      }
+    }, {
+      "uid" : "3964dd169756ec89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641834205629,
+        "stop" : 1641834218182,
+        "duration" : 12553
+      }
+    }, {
+      "uid" : "114bbb06c0c1eef0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641833964492,
+        "stop" : 1641833975859,
+        "duration" : 11367
+      }
+    }, {
+      "uid" : "3c184b16a8abe585",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641833733598,
+        "stop" : 1641833744152,
+        "duration" : 10554
+      }
+    }, {
+      "uid" : "5e90cdfa28c4d2fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641833447097,
+        "stop" : 1641833459224,
+        "duration" : 12127
+      }
+    }, {
+      "uid" : "e54d027c013f01c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641833308973,
+        "stop" : 1641833319227,
+        "duration" : 10254
+      }
+    }, {
+      "uid" : "b63dd368713c884a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641831025120,
+        "stop" : 1641831036354,
+        "duration" : 11234
+      }
+    }, {
+      "uid" : "e84fdc5a44f086b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641830895338,
+        "stop" : 1641830906641,
+        "duration" : 11303
+      }
+    }, {
+      "uid" : "97624b7d5827cf38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641826684508,
+        "stop" : 1641826696098,
+        "duration" : 11590
+      }
+    }, {
+      "uid" : "3a2e0951a339df50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641826345469,
+        "stop" : 1641826357361,
+        "duration" : 11892
+      }
+    }, {
+      "uid" : "d94a85a25a6c700e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641826076065,
+        "stop" : 1641826088749,
+        "duration" : 12684
+      }
+    }, {
+      "uid" : "ee241be8c84e03c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641825585081,
+        "stop" : 1641825598346,
+        "duration" : 13265
+      }
+    }, {
+      "uid" : "45ae0cf1642a9883",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641824006551,
+        "stop" : 1641824017649,
+        "duration" : 11098
+      }
+    }, {
+      "uid" : "b766cdc432776177",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641823891284,
+        "stop" : 1641823901964,
+        "duration" : 10680
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd9067022cbbe34.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

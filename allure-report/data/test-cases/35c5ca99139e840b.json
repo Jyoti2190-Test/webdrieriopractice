@@ -1,0 +1,295 @@
+{
+  "uid" : "35c5ca99139e840b",
+  "name" : "Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "fullName" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials.Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "historyId" : "6bc8ad01f17ad3ef13e298ff97799e1",
+  "time" : {
+    "start" : 1641803022855,
+    "stop" : 1641803023979,
+    "duration" : 1124
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641803022856,
+        "stop" : 1641803022922,
+        "duration" : 66
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f3085d9f2beab172",
+        "name" : "Request",
+        "source" : "f3085d9f2beab172.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "f3c95443e8e892cc",
+        "name" : "Response",
+        "source" : "f3c95443e8e892cc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/377fb1c0-9382-4b6d-ad4d-636da2dc3b10/click",
+      "time" : {
+        "start" : 1641803022930,
+        "stop" : 1641803023645,
+        "duration" : 715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641803023665,
+        "stop" : 1641803023715,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "860f8dbb4a096d5f",
+        "name" : "Request",
+        "source" : "860f8dbb4a096d5f.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "d6266447dfe78ebd",
+        "name" : "Response",
+        "source" : "d6266447dfe78ebd.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641803023719,
+        "stop" : 1641803023750,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "34af607257dd622b",
+        "name" : "Request",
+        "source" : "34af607257dd622b.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "974641fee5dbee7",
+        "name" : "Response",
+        "source" : "974641fee5dbee7.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/ed3b29be-46c4-4660-a401-109655165741/text",
+      "time" : {
+        "start" : 1641803023756,
+        "stop" : 1641803023802,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85a2368703b2939b",
+        "name" : "Response",
+        "source" : "85a2368703b2939b.json",
+        "type" : "application/json",
+        "size" : 13
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641803023803,
+        "stop" : 1641803023850,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "786395481d6093af",
+        "name" : "Request",
+        "source" : "786395481d6093af.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "a3f9663ab9822766",
+        "name" : "Response",
+        "source" : "a3f9663ab9822766.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641803023852,
+        "stop" : 1641803023887,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6cd2c92496357b1f",
+        "name" : "Request",
+        "source" : "6cd2c92496357b1f.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "8a85b6165e62289b",
+        "name" : "Response",
+        "source" : "8a85b6165e62289b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641803023889,
+        "stop" : 1641803023922,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "821fa17325e09965",
+        "name" : "Request",
+        "source" : "821fa17325e09965.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "7a0f5a31cca23885",
+        "name" : "Response",
+        "source" : "7a0f5a31cca23885.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "GET /session/:sessionId/element/ff032a82-77d8-47bb-8be0-2bbe7bd74fb0/text",
+      "time" : {
+        "start" : 1641803023926,
+        "stop" : 1641803023974,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f514ceed9b690f05",
+        "name" : "Response",
+        "source" : "f514ceed9b690f05.json",
+        "type" : "application/json",
+        "size" : 36
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "e77841e88b4c2831",
+      "name" : "Response",
+      "source" : "e77841e88b4c2831.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "35c5ca99139e840b.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

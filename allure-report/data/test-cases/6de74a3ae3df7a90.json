@@ -1,0 +1,533 @@
+{
+  "uid" : "6de74a3ae3df7a90",
+  "name" : "Then Enter the \"Test\" , \"a24\"",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create New Category.Then Enter the \"Test\" , \"a24\"",
+  "historyId" : "69cc10130f887b8a4f8dad1087f32514",
+  "time" : {
+    "start" : 1641877181282,
+    "stop" : 1641877190059,
+    "duration" : 8777
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 24,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641877181284,
+        "stop" : 1641877187726,
+        "duration" : 6442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a568845bc995ed44",
+        "name" : "Request",
+        "source" : "a568845bc995ed44.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "c453813253b7547",
+        "name" : "Response",
+        "source" : "c453813253b7547.json",
+        "type" : "application/json",
+        "size" : 1052
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641877187735,
+        "stop" : 1641877187813,
+        "duration" : 78
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7b2892d3cbc7bd35",
+        "name" : "Request",
+        "source" : "7b2892d3cbc7bd35.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "dc34ced931d6c6c8",
+        "name" : "Response",
+        "source" : "dc34ced931d6c6c8.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641877188237,
+        "stop" : 1641877188369,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ab0203dab99d83c7",
+        "name" : "Request",
+        "source" : "ab0203dab99d83c7.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "c412e2dabc10015d",
+        "name" : "Response",
+        "source" : "c412e2dabc10015d.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641877188378,
+        "stop" : 1641877188528,
+        "duration" : 150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2981f8b0a89893b3",
+        "name" : "Request",
+        "source" : "2981f8b0a89893b3.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "3c15675a02f5dba2",
+        "name" : "Response",
+        "source" : "3c15675a02f5dba2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/2cc0128e-9499-4cd7-8fbe-24c8d9ccf889/clear",
+      "time" : {
+        "start" : 1641877188539,
+        "stop" : 1641877188658,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/2cc0128e-9499-4cd7-8fbe-24c8d9ccf889/value",
+      "time" : {
+        "start" : 1641877188662,
+        "stop" : 1641877188768,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4f902e78fe069fa6",
+        "name" : "Request",
+        "source" : "4f902e78fe069fa6.json",
+        "type" : "application/json",
+        "size" : 20
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641877188769,
+        "stop" : 1641877188794,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c50938d11a5b66cf",
+        "name" : "Request",
+        "source" : "c50938d11a5b66cf.json",
+        "type" : "application/json",
+        "size" : 91
+      }, {
+        "uid" : "f27b325593ec67c",
+        "name" : "Response",
+        "source" : "f27b325593ec67c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/9daa1554-d3bb-4ed3-9720-df7a2fabc0ac/clear",
+      "time" : {
+        "start" : 1641877188798,
+        "stop" : 1641877188851,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/9daa1554-d3bb-4ed3-9720-df7a2fabc0ac/value",
+      "time" : {
+        "start" : 1641877188851,
+        "stop" : 1641877189012,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7df028321058574a",
+        "name" : "Request",
+        "source" : "7df028321058574a.json",
+        "type" : "application/json",
+        "size" : 19
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641877189012,
+        "stop" : 1641877189713,
+        "duration" : 701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "448de4eab4631d28",
+        "name" : "Request",
+        "source" : "448de4eab4631d28.json",
+        "type" : "application/json",
+        "size" : 104
+      }, {
+        "uid" : "d34a36a9d95bf5f8",
+        "name" : "Response",
+        "source" : "d34a36a9d95bf5f8.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "POST /session/:sessionId/element/736dc96b-4686-4f45-aa2b-9e346a86ed9f/click",
+      "time" : {
+        "start" : 1641877189715,
+        "stop" : 1641877190058,
+        "duration" : 343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "hasContent" : true,
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Enter the \"Test\" , \"a24\""
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c909c7c1eb8daa0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641876850571,
+        "stop" : 1641876857438,
+        "duration" : 6867
+      }
+    }, {
+      "uid" : "44f06c15991941",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641876692891,
+        "stop" : 1641876700300,
+        "duration" : 7409
+      }
+    }, {
+      "uid" : "efcc14af7c32233d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641875495093,
+        "stop" : 1641875496961,
+        "duration" : 1868
+      }
+    }, {
+      "uid" : "663186d86bc2d23e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641836568148,
+        "stop" : 1641836569105,
+        "duration" : 957
+      }
+    }, {
+      "uid" : "649307361aa37848",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"#__button5-BDI-content\" because element wasn't found",
+      "time" : {
+        "start" : 1641836393779,
+        "stop" : 1641836404927,
+        "duration" : 11148
+      }
+    }, {
+      "uid" : "3089ed49f5a4bc5f",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"//span[@class='sapMBtnContent']/bdi[@id='__button5-BDI-content']\" because element wasn't found",
+      "time" : {
+        "start" : 1641836227684,
+        "stop" : 1641836279070,
+        "duration" : 51386
+      }
+    }, {
+      "uid" : "9212bb1ec61c119",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//*[@id='__xmlview5--parentCategory-inner']\" because element wasn't found",
+      "time" : {
+        "start" : 1641835880630,
+        "stop" : 1641835895926,
+        "duration" : 15296
+      }
+    }, {
+      "uid" : "ffc98c112deafa86",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//*[@id=\"__xmlview5--parentCategory-inner\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1641835444675,
+        "stop" : 1641835459968,
+        "duration" : 15293
+      }
+    }, {
+      "uid" : "f26e46e5111c2db8",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`input#__xmlview5--categoryName-inner`) to exist",
+      "time" : {
+        "start" : 1641835227129,
+        "stop" : 1641835242199,
+        "duration" : 15070
+      }
+    }, {
+      "uid" : "24f66141dc526c00",
+      "status" : "broken",
+      "statusDetails" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+      "time" : {
+        "start" : 1641835106112,
+        "stop" : 1641835166136,
+        "duration" : 60024
+      }
+    }, {
+      "uid" : "aeb91a3c6ec92c0e",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"#__xmlview5--enterFullScreenBtn-img\" because element wasn't found",
+      "time" : {
+        "start" : 1641835010421,
+        "stop" : 1641835025527,
+        "duration" : 15106
+      }
+    }, {
+      "uid" : "c2bafcec6592a5db",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call click on element with selector \"#__xmlview5--enterFullScreenBtn-img\" because element wasn't found",
+      "time" : {
+        "start" : 1641834405779,
+        "stop" : 1641834420853,
+        "duration" : 15074
+      }
+    }, {
+      "uid" : "7713a0b2f4cf6282",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`/html/body/div[3]/div[2]/div/div/div/main/div/section/div/div[2]/div[2]/div[2]/div/div/div/div/div[4]/div/div/div/div/div/div/section[2]/section/div[2]/div/div[1]/div/div/div/div/div/div/div[2]/div/div/input`) to exist",
+      "time" : {
+        "start" : 1641834220275,
+        "stop" : 1641834235361,
+        "duration" : 15086
+      }
+    }, {
+      "uid" : "1d15eec00060e3f4",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`//section[@id=\"__xmlview5--addCategorySection1\"]//div[@id=\"__container8--Grid\"]/div/div/div/input[@id=\"__xmlview5--categoryName-inner\"]`) to exist",
+      "time" : {
+        "start" : 1641833978093,
+        "stop" : 1641833993153,
+        "duration" : 15060
+      }
+    }, {
+      "uid" : "31e300d9493d126d",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`//div[@id=\"__container8--Grid\"]/div/div/div/input[@id=\"__xmlview5--categoryName-inner\"]`) to exist",
+      "time" : {
+        "start" : 1641833747961,
+        "stop" : 1641833794430,
+        "duration" : 46469
+      }
+    }, {
+      "uid" : "ad28cacbb4837e7c",
+      "status" : "broken",
+      "statusDetails" : "Error: function timed out, ensure the promise resolves within 60000 milliseconds",
+      "time" : {
+        "start" : 1641833463214,
+        "stop" : 1641833558027,
+        "duration" : 94813
+      }
+    }, {
+      "uid" : "f0b1012da3046876",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`//div[@id=\"__container8--Grid\"]/div/div/div/input[@id=\"__xmlview5--categoryName-inner\"]`) to exist",
+      "time" : {
+        "start" : 1641833321210,
+        "stop" : 1641833331297,
+        "duration" : 10087
+      }
+    }, {
+      "uid" : "61c008a99a6e6ee1",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id=\"__xmlview5--categoryName-inner\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1641831037949,
+        "stop" : 1641831087518,
+        "duration" : 49569
+      }
+    }, {
+      "uid" : "9f5377a93ca79a14",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//*[@id=\"__xmlview5--categoryName-inner\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1641826697923,
+        "stop" : 1641826708001,
+        "duration" : 10078
+      }
+    }, {
+      "uid" : "6fdb1519f4e00e0",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//*[@id=\"__xmlview5--categoryName\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1641826359209,
+        "stop" : 1641826369293,
+        "duration" : 10084
+      }
+    }, {
+      "uid" : "e3035e5c29920669",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id=\"__xmlview5--categoryName-inner\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1641826090721,
+        "stop" : 1641826100825,
+        "duration" : 10104
+      }
+    }, {
+      "uid" : "d9ed927ba5da74b0",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"//input[@id=\"__xmlview5--categoryName-inner\"]\" because element wasn't found",
+      "time" : {
+        "start" : 1641825600401,
+        "stop" : 1641825610491,
+        "duration" : 10090
+      }
+    }, {
+      "uid" : "2dd6adfd9a4cfcad",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"#__xmlview5--categoryName\" because element wasn't found",
+      "time" : {
+        "start" : 1641824019765,
+        "stop" : 1641824029836,
+        "duration" : 10071
+      }
+    }, {
+      "uid" : "77dd06b19f2c8516",
+      "status" : "broken",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"#__xmlview5--categoryName\" because element wasn't found",
+      "time" : {
+        "start" : 1641823904202,
+        "stop" : 1641823914326,
+        "duration" : 10124
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6de74a3ae3df7a90.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}
