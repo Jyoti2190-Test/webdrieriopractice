@@ -1,0 +1,133 @@
+{
+  "uid" : "773ebe47612a29d",
+  "name" : "Given user is on homepage",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create New Category.Given user is on homepage",
+  "historyId" : "8ac28eeb9a346d5745fea2ade246846f",
+  "time" : {
+    "start" : 1641885021651,
+    "stop" : 1641885021876,
+    "duration" : 225
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641885021652,
+        "stop" : 1641885021771,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "78cc4d49ebf24838",
+        "name" : "Request",
+        "source" : "78cc4d49ebf24838.json",
+        "type" : "application/json",
+        "size" : 182
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1641885021771,
+        "stop" : 1641885021807,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5888076d2f12dbb8",
+        "name" : "Response",
+        "source" : "5888076d2f12dbb8.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641885021808,
+        "stop" : 1641885021873,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "79013a0366005dcd",
+        "name" : "Response",
+        "source" : "79013a0366005dcd.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given user is on homepage"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "773ebe47612a29d.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

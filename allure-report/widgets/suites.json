@@ -1,0 +1,59 @@
+{
+  "total" : 5,
+  "items" : [ {
+    "uid" : "687a9abbf6fe6d938999c0876037c423",
+    "name" : "To test the purchasing categories in Taxonomy: User should be able to create New Category",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 7,
+      "skipped" : 0,
+      "passed" : 17,
+      "unknown" : 10,
+      "total" : 37
+    }
+  }, {
+    "uid" : "55f0852393a0253c92294a404d3a774a",
+    "name" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 7
+    }
+  }, {
+    "uid" : "c71c77594e0e8cb0fc8b435bde3abbe3",
+    "name" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 4,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "5c159d9599b9b86b286bed8ffcc5b77e",
+    "name" : "To test the purchasing categories in Taxonomy: User should be able to create category",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  }, {
+    "uid" : "2653cf63ebe154ef7b22feb38c4d5cd4",
+    "name" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 5
+    }
+  } ]
+}

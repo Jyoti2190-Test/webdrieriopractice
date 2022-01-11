@@ -1,0 +1,379 @@
+{
+  "uid" : "4398e56b236c3c36",
+  "name" : "Given user is on homepage",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window.Given user is on homepage",
+  "historyId" : "46902232318430147ae4f311283e242c",
+  "time" : {
+    "start" : 1641878745929,
+    "stop" : 1641878765652,
+    "duration" : 19723
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Expect window to have title",
+  "statusTrace" : "Error: Expect window to have title\n                \n                Expected: \"Category\"\n                Received: \"SAP Fiori launchpad site on Cloud Foundry\"\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:12:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Error: Expect window to have title",
+    "statusTrace" : "Error: Expect window to have title\n                \n                Expected: \"Category\"\n                Received: \"SAP Fiori launchpad site on Cloud Foundry\"\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:12:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641878745939,
+        "stop" : 1641878755340,
+        "duration" : 9401
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "419c5e4a98b6441c",
+        "name" : "Request",
+        "source" : "419c5e4a98b6441c.json",
+        "type" : "application/json",
+        "size" : 182
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/window/maximize",
+      "time" : {
+        "start" : 1641878755341,
+        "stop" : 1641878755626,
+        "duration" : 285
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ee736ed5bbe52671",
+        "name" : "Response",
+        "source" : "ee736ed5bbe52671.json",
+        "type" : "application/json",
+        "size" : 58
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878755631,
+        "stop" : 1641878755754,
+        "duration" : 123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "40bc58138e9ea648",
+        "name" : "Response",
+        "source" : "40bc58138e9ea648.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878756138,
+        "stop" : 1641878756186,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51b39effabc07f36",
+        "name" : "Response",
+        "source" : "51b39effabc07f36.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878756637,
+        "stop" : 1641878756656,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "80493f9b0ee27e0d",
+        "name" : "Response",
+        "source" : "80493f9b0ee27e0d.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878757137,
+        "stop" : 1641878757159,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9244ba736e97b379",
+        "name" : "Response",
+        "source" : "9244ba736e97b379.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878757640,
+        "stop" : 1641878757668,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "64d00702d5401089",
+        "name" : "Response",
+        "source" : "64d00702d5401089.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878758143,
+        "stop" : 1641878758204,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ed42a40a13a0047c",
+        "name" : "Response",
+        "source" : "ed42a40a13a0047c.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878758630,
+        "stop" : 1641878758674,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f9760e7189561610",
+        "name" : "Response",
+        "source" : "f9760e7189561610.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878759131,
+        "stop" : 1641878759156,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c10d748f3b7d60f6",
+        "name" : "Response",
+        "source" : "c10d748f3b7d60f6.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878759630,
+        "stop" : 1641878759654,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6560f994b4d028d6",
+        "name" : "Response",
+        "source" : "6560f994b4d028d6.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878760136,
+        "stop" : 1641878760156,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "67634d9d9ed990d",
+        "name" : "Response",
+        "source" : "67634d9d9ed990d.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878760641,
+        "stop" : 1641878760691,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "50a49fbb819e9ca6",
+        "name" : "Response",
+        "source" : "50a49fbb819e9ca6.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641878761131,
+        "stop" : 1641878765652,
+        "duration" : 4521
+      },
+      "status" : "failed",
+      "statusMessage" : "Error: Expect window to have title\n                \n                Expected: \"Category\"\n                Received: \"SAP Fiori launchpad site on Cloud Foundry\"\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:12:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1641878765649,
+          "stop" : 1641878765652,
+          "duration" : 3
+        },
+        "status" : "failed",
+        "statusMessage" : "Error: Expect window to have title\n                \n                Expected: \"Category\"\n                Received: \"SAP Fiori launchpad site on Cloud Foundry\"\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:12:27)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 15,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given user is on homepage"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4398e56b236c3c36.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

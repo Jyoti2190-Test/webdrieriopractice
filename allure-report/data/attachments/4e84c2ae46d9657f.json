@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//section[@id=\"__xmlview5--addCategorySection1\"]//div[@id=\"__container8--Grid\"]/div/div/div/input[@id=\"__xmlview5--categoryName-inner\"]"
+}

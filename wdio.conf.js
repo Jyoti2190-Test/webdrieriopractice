@@ -1,4 +1,5 @@
 import moment from 'moment';
+import allure from 'allure-commandline';
 export const config = {
     //
     // ====================
@@ -22,7 +23,7 @@ export const config = {
     // will be called from there.
     //
     specs: [
-        './Test/features/**/*.feature'
+        './Test-CatMan/features/**/*.feature'
     ],
     // Patterns to exclude.
     exclude: [
@@ -44,7 +45,7 @@ export const config = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // If you have trouble getting all important capabilities together, check out the
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
@@ -140,7 +141,7 @@ export const config = {
     // If you are using Cucumber you need to specify the location of your step definitions.
     cucumberOpts: {
         // <string[]> (file/dir) require files before executing features
-        require: ['./test/step-definitions/*.js'],
+        require: ['./Test-CatMan/step-definitions/steps.js'],
         requireModule: [
             '@babel/register'
         ],
@@ -317,8 +318,26 @@ export const config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+    // onComplete: function () {
+    //     const reportError = new Error('Could not generate Allure report')
+    //     const generation = allure(['generate', './reports/allure-results', '--clean'])
+    //     return new Promise((resolve, reject) => {
+    //         const generationTimeout = setTimeout(
+    //             () => reject(reportError),
+    //             5000)
+
+    //         generation.on('exit', function (exitCode) {
+    //             clearTimeout(generationTimeout)
+
+    //             if (exitCode !== 0) {
+    //                 return reject(reportError)
+    //             }
+
+    //             console.log('Allure report successfully generated')
+    //             resolve()
+    //         })
+    //     })
+    // } ,
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session
@@ -326,5 +345,5 @@ export const config = {
     */
     //onReload: function(oldSessionId, newSessionId) {
     //}
-    debug: true
+    debug: false
 }

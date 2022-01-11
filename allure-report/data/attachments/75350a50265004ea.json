@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//button[@class='sapMBtnBase sapMBtn sapMBarChild']/span[@id='__button2-inner']/span[@class='sapUiIcon sapUiIconMirrorInRTL sapMBtnCustomIcon sapMBtnIcon sapMBtnIconLeft']"
+}

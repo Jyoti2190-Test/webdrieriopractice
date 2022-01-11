@@ -1,0 +1,60 @@
+{
+  "uid" : "ceee98dcf33020c7",
+  "name" : "When Create Category is available",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create category.When Create Category is available",
+  "historyId" : "a77c0919934d8594fe9163631e734cd9",
+  "time" : {
+    "start" : 1641809339446,
+    "stop" : 0,
+    "duration" : -1641809339446
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Create Category is available"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ceee98dcf33020c7.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

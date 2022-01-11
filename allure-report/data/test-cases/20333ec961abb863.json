@@ -1,0 +1,118 @@
+{
+  "uid" : "20333ec961abb863",
+  "name" : "",
+  "fullName" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials.",
+  "historyId" : "3a2561984d39aa1260771c8857effd37",
+  "time" : {
+    "start" : 1641815538939,
+    "stop" : 1641815538940,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 7,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f88d9effc6783c61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815538935,
+        "stop" : 1641815538936,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "aa2c4574b0c02902",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808972587,
+        "stop" : 1641808972587,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "86689de13b65e681",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808967374,
+        "stop" : 1641808967376,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "c1a6bf589e29e9ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803296794,
+        "stop" : 1641803296794,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f0d51064feb74a6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803291871,
+        "stop" : 1641803291873,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "5e411aac035f80eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803023979,
+        "stop" : 1641803023980,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "2e66028c1332413b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803018780,
+        "stop" : 1641803018782,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20333ec961abb863.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

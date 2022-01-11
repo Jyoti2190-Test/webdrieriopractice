@@ -1,0 +1,124 @@
+{
+  "uid" : "fbb79e2e0bb41e57",
+  "name" : "When Create Category is available",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create category.When Create Category is available",
+  "historyId" : "a77c0919934d8594fe9163631e734cd9",
+  "time" : {
+    "start" : 1641815361795,
+    "stop" : 1641815362537,
+    "duration" : 742
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641815361799,
+        "stop" : 1641815362347,
+        "duration" : 548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7436e9266998bbb4",
+        "name" : "Request",
+        "source" : "7436e9266998bbb4.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "f6840e5d1bbc005f",
+        "name" : "Response",
+        "source" : "f6840e5d1bbc005f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641815362359,
+        "stop" : 1641815362525,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1dff2773ac459a76",
+        "name" : "Request",
+        "source" : "1dff2773ac459a76.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "15fe131ee70df023",
+        "name" : "Response",
+        "source" : "15fe131ee70df023.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Create Category is available"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbb79e2e0bb41e57.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

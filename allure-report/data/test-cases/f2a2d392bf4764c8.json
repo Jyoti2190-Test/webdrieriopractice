@@ -1,0 +1,78 @@
+{
+  "uid" : "f2a2d392bf4764c8",
+  "name" : "Then Input the details for search name \"Test5\" and click Search",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create New Category.Then Input the details for search name \"Test5\" and click Search",
+  "historyId" : "a374e988183c6692f3b35ee0cf791a36",
+  "time" : {
+    "start" : 1641885033303,
+    "stop" : 0,
+    "duration" : -1641885033303
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 2,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Input the details for search name \"Test5\" and click Search"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "eadc795debd02803",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641884740677,
+        "stop" : 0,
+        "duration" : -1641884740677
+      }
+    }, {
+      "uid" : "ec13ee2422134823",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641884429979,
+        "stop" : 0,
+        "duration" : -1641884429979
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f2a2d392bf4764c8.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

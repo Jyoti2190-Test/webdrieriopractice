@@ -1,0 +1,298 @@
+{
+  "uid" : "a5168243f8041727",
+  "name" : "Then Input the details for search name \"abc11\" and click Search",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create New Category.Then Input the details for search name \"abc11\" and click Search",
+  "historyId" : "d04f170aa826e583c8635b2066a9e448",
+  "time" : {
+    "start" : 1641893292314,
+    "stop" : 1641893293593,
+    "duration" : 1279
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641893292318,
+        "stop" : 1641893292380,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "180be51b869667af",
+        "name" : "Request",
+        "source" : "180be51b869667af.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "bb5282076681389c",
+        "name" : "Response",
+        "source" : "bb5282076681389c.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641893292387,
+        "stop" : 1641893292462,
+        "duration" : 75
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "14dd7de9e532593f",
+        "name" : "Request",
+        "source" : "14dd7de9e532593f.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "f9d0b8f79f2d465f",
+        "name" : "Response",
+        "source" : "f9d0b8f79f2d465f.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641893292470,
+        "stop" : 1641893292527,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "306d7f91b896c189",
+        "name" : "Request",
+        "source" : "306d7f91b896c189.json",
+        "type" : "application/json",
+        "size" : 78
+      }, {
+        "uid" : "ba6c9eb5364e80ae",
+        "name" : "Response",
+        "source" : "ba6c9eb5364e80ae.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/bdd31540-6729-4fcf-a352-8ef7f7f109d6/clear",
+      "time" : {
+        "start" : 1641893292537,
+        "stop" : 1641893292657,
+        "duration" : 120
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/bdd31540-6729-4fcf-a352-8ef7f7f109d6/value",
+      "time" : {
+        "start" : 1641893292658,
+        "stop" : 1641893292821,
+        "duration" : 163
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5dec3c30a5a15256",
+        "name" : "Request",
+        "source" : "5dec3c30a5a15256.json",
+        "type" : "application/json",
+        "size" : 21
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641893292821,
+        "stop" : 1641893292876,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b278a367f3536c2",
+        "name" : "Request",
+        "source" : "b278a367f3536c2.json",
+        "type" : "application/json",
+        "size" : 68
+      }, {
+        "uid" : "8aeea7f3ca96981a",
+        "name" : "Response",
+        "source" : "8aeea7f3ca96981a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/cf8cfc97-482e-4ec7-8016-4c462876a7e4/click",
+      "time" : {
+        "start" : 1641893292879,
+        "stop" : 1641893292994,
+        "duration" : 115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641893292995,
+        "stop" : 1641893293032,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "96685cea589fdd4e",
+        "name" : "Request",
+        "source" : "96685cea589fdd4e.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "6ec2eb38cf71e504",
+        "name" : "Response",
+        "source" : "6ec2eb38cf71e504.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/5e502942-bee1-4757-9bc1-632fa32e70b3/text",
+      "time" : {
+        "start" : 1641893293038,
+        "stop" : 1641893293074,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12fb964fe5fec6b7",
+        "name" : "Response",
+        "source" : "12fb964fe5fec6b7.json",
+        "type" : "application/json",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/5e502942-bee1-4757-9bc1-632fa32e70b3/text",
+      "time" : {
+        "start" : 1641893293544,
+        "stop" : 1641893293592,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d28300b74961959d",
+        "name" : "Response",
+        "source" : "d28300b74961959d.json",
+        "type" : "application/json",
+        "size" : 7
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 10,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Input the details for search name \"abc11\" and click Search"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a5168243f8041727.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

@@ -1,0 +1,151 @@
+{
+  "uid" : "965f13f8f1bccfec",
+  "name" : "Then New Category Tab should be available",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window.Then New Category Tab should be available",
+  "historyId" : "82f67fceca510c0b5458f03dc79d0a98",
+  "time" : {
+    "start" : 1641826696700,
+    "stop" : 1641826697619,
+    "duration" : 919
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641826696702,
+        "stop" : 1641826697063,
+        "duration" : 361
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "55ea8ebd09328153",
+        "name" : "Request",
+        "source" : "55ea8ebd09328153.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "5fe6054e83cd2772",
+        "name" : "Response",
+        "source" : "5fe6054e83cd2772.json",
+        "type" : "application/json",
+        "size" : 1033
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641826697068,
+        "stop" : 1641826697117,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c7f74bdbbd77e24f",
+        "name" : "Request",
+        "source" : "c7f74bdbbd77e24f.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "6b13082ec22404ba",
+        "name" : "Response",
+        "source" : "6b13082ec22404ba.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641826697577,
+        "stop" : 1641826697611,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "70fc31fdb91e298c",
+        "name" : "Request",
+        "source" : "70fc31fdb91e298c.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "471753b00c60b0da",
+        "name" : "Response",
+        "source" : "471753b00c60b0da.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then New Category Tab should be available"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "965f13f8f1bccfec.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

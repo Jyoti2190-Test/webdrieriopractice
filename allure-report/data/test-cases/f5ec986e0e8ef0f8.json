@@ -1,0 +1,124 @@
+{
+  "uid" : "f5ec986e0e8ef0f8",
+  "name" : "Then New Category Tab should be available",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window.Then New Category Tab should be available",
+  "historyId" : "82f67fceca510c0b5458f03dc79d0a98",
+  "time" : {
+    "start" : 1641834219571,
+    "stop" : 1641834219903,
+    "duration" : 332
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641834219573,
+        "stop" : 1641834219711,
+        "duration" : 138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bde0b68fbf3e3bb8",
+        "name" : "Request",
+        "source" : "bde0b68fbf3e3bb8.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "77634ddd8b6e9d50",
+        "name" : "Response",
+        "source" : "77634ddd8b6e9d50.json",
+        "type" : "application/json",
+        "size" : 1033
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641834219719,
+        "stop" : 1641834219899,
+        "duration" : 180
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "42e177d792b5fa85",
+        "name" : "Request",
+        "source" : "42e177d792b5fa85.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "8daf3c0f1be274ac",
+        "name" : "Response",
+        "source" : "8daf3c0f1be274ac.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then New Category Tab should be available"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f5ec986e0e8ef0f8.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

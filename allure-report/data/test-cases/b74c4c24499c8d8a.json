@@ -1,0 +1,166 @@
+{
+  "uid" : "b74c4c24499c8d8a",
+  "name" : "Then Click on Create Category",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create New Category.Then Click on Create Category",
+  "historyId" : "554b15c70923e4bd7fea65904a799ebc",
+  "time" : {
+    "start" : 1641879087553,
+    "stop" : 1641879087962,
+    "duration" : 409
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641879087555,
+        "stop" : 1641879087696,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ba1c31be03daf756",
+        "name" : "Request",
+        "source" : "ba1c31be03daf756.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "c3b6c6267c38cb67",
+        "name" : "Response",
+        "source" : "c3b6c6267c38cb67.json",
+        "type" : "application/json",
+        "size" : 1036
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641879087713,
+        "stop" : 1641879087757,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "48d641a63367003b",
+        "name" : "Request",
+        "source" : "48d641a63367003b.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "d672cac91cac5006",
+        "name" : "Response",
+        "source" : "d672cac91cac5006.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641879087763,
+        "stop" : 1641879087789,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "782f7b5292416eea",
+        "name" : "Request",
+        "source" : "782f7b5292416eea.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "b8f43d90eb8f4723",
+        "name" : "Response",
+        "source" : "b8f43d90eb8f4723.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "POST /session/:sessionId/element/c135a081-3be0-420f-86a9-fcd36861e279/click",
+      "time" : {
+        "start" : 1641879087791,
+        "stop" : 1641879087961,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then Click on Create Category"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create New Category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b74c4c24499c8d8a.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

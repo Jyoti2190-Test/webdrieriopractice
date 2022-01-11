@@ -1,0 +1,92 @@
+{
+  "uid" : "ab083926581bb691",
+  "name" : "Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "fullName" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials.Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "historyId" : "6bc8ad01f17ad3ef13e298ff97799e1",
+  "time" : {
+    "start" : 1641815538938,
+    "stop" : 1641815538939,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"the user must navigate to secure area page displaying a message \"You logged into a secure area!\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"the user must navigate to secure area page displaying a message \"You logged into a secure area!\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test\\features\\login.feature):1:1\n                \tat Scenario(The one where user logs in using valid credentials):6:5\n                \tat Step(the user must navigate to secure area page displaying a message \"You logged into a secure area!\"):9:9\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b4d3b8fe91fb4069",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808971394,
+        "stop" : 1641808972587,
+        "duration" : 1193
+      }
+    }, {
+      "uid" : "8e667a8c2a4c6680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803295849,
+        "stop" : 1641803296794,
+        "duration" : 945
+      }
+    }, {
+      "uid" : "bb0189b3a66347c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803022855,
+        "stop" : 1641803023979,
+        "duration" : 1124
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ab083926581bb691.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

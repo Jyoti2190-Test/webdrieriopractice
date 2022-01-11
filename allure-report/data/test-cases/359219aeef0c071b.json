@@ -1,0 +1,90 @@
+{
+  "uid" : "359219aeef0c071b",
+  "name" : "Then New Category Tab should be available",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create category.Then New Category Tab should be available",
+  "historyId" : "edcb8074e16a14cf2cdc0ab1b8954f23",
+  "time" : {
+    "start" : 1641810484214,
+    "stop" : 1641810484244,
+    "duration" : 30
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: browser.delay is not a function",
+  "statusTrace" : "TypeError: browser.delay is not a function\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:29:15)\n                    at World.executeAsync (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at World.testFrameworkFnWrapper (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Object.wrapPromiseWithTimeout (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\time.ts:56:10)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:86:16)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:50:20)\n                    at TestCaseRunner.invokeStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:130:12)\n                    at TestCaseRunner.runStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:307:20)\n                    at C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:210:36",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: browser.delay is not a function",
+    "statusTrace" : "TypeError: browser.delay is not a function\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:29:15)\n                    at World.executeAsync (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at World.testFrameworkFnWrapper (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Object.wrapPromiseWithTimeout (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\time.ts:56:10)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:86:16)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:50:20)\n                    at TestCaseRunner.invokeStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:130:12)\n                    at TestCaseRunner.runStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:307:20)\n                    at C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:210:36",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1641810484241,
+        "stop" : 1641810484244,
+        "duration" : 3
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: browser.delay is not a function\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:29:15)\n                    at World.executeAsync (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at World.testFrameworkFnWrapper (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Object.wrapPromiseWithTimeout (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\time.ts:56:10)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:86:16)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:50:20)\n                    at TestCaseRunner.invokeStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:130:12)\n                    at TestCaseRunner.runStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:307:20)\n                    at C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:210:36",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then New Category Tab should be available"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "359219aeef0c071b.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641815538985' stop='1641815538988'>
+    <name>To test the login functionality in "The Internet Herokuapp": The one where user logs in using invalid credentials</name>
+    <title>To test the login functionality in "The Internet Herokuapp": The one where user logs in using invalid credentials</title>
+    <test-cases>
+        <test-case start='1641815538985' status='passed' stop='1641815538985'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1641815538985' status='broken' stop='1641815538986'>
+            <name>Given the user is on login page</name>
+            <title>Given the user is on login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "the user is on login page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "the user is on login page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\jyoti.singhal@sap.com\Documents\WebDriverIO_Cucumber_Project\Test\features\login.feature):1:1
+                	at Scenario(The one where user logs in using invalid credentials):11:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641815538986' status='broken' stop='1641815538986'>
+            <name>When the user enters username as "tomsmith" and password as "SuperPassword!"</name>
+            <title>When the user enters username as "tomsmith" and password as "SuperPassword!"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "the user enters username as "tomsmith" and password as "SuperPassword!"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "the user enters username as "tomsmith" and password as "SuperPassword!"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\jyoti.singhal@sap.com\Documents\WebDriverIO_Cucumber_Project\Test\features\login.feature):1:1
+                	at Scenario(The one where user logs in using invalid credentials):11:5
+                	at Step(the user enters username as "&lt;username>" and password as "&lt;password>"):12:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641815538986' status='broken' stop='1641815538986'>
+            <name>And clicks on login button</name>
+            <title>And clicks on login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "clicks on login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "clicks on login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\jyoti.singhal@sap.com\Documents\WebDriverIO_Cucumber_Project\Test\features\login.feature):1:1
+                	at Scenario(The one where user logs in using invalid credentials):11:5
+                	at Step(clicks on login button):13:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641815538986' status='broken' stop='1641815538987'>
+            <name>Then the user must remain on login page displaying a message "Your password is invalid!"</name>
+            <title>Then the user must remain on login page displaying a message "Your password is invalid!"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "the user must remain on login page displaying a message "Your password is invalid!"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "the user must remain on login page displaying a message "Your password is invalid!"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\jyoti.singhal@sap.com\Documents\WebDriverIO_Cucumber_Project\Test\features\login.feature):1:1
+                	at Scenario(The one where user logs in using invalid credentials):11:5
+                	at Step(the user must remain on login page displaying a message "&lt;errorMessage>"):14:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641815538987' status='passed' stop='1641815538988'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

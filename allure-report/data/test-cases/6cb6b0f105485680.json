@@ -1,0 +1,90 @@
+{
+  "uid" : "6cb6b0f105485680",
+  "name" : "Given user is on homepage",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create category.Given user is on homepage",
+  "historyId" : "b5c5dcd65d5854d5f21327b951fb6fcb",
+  "time" : {
+    "start" : 1641809718343,
+    "stop" : 1641809718370,
+    "duration" : 27
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "TypeError: _homepage.default.open is not a function",
+  "statusTrace" : "TypeError: _homepage.default.open is not a function\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:10:20)\n                    at World.executeAsync (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at World.testFrameworkFnWrapper (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Object.wrapPromiseWithTimeout (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\time.ts:56:10)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:86:16)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:50:20)\n                    at TestCaseRunner.invokeStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:130:12)\n                    at TestCaseRunner.runStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:307:20)\n                    at C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:210:36",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: _homepage.default.open is not a function",
+    "statusTrace" : "TypeError: _homepage.default.open is not a function\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:10:20)\n                    at World.executeAsync (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at World.testFrameworkFnWrapper (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Object.wrapPromiseWithTimeout (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\time.ts:56:10)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:86:16)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:50:20)\n                    at TestCaseRunner.invokeStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:130:12)\n                    at TestCaseRunner.runStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:307:20)\n                    at C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:210:36",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1641809718366,
+        "stop" : 1641809718370,
+        "duration" : 4
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: _homepage.default.open is not a function\n                    at World.<anonymous> (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test-CatMan\\step-definitions\\/steps.js:10:20)\n                    at World.executeAsync (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\shim.js:325:27)\n                    at World.testFrameworkFnWrapper (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@wdio\\utils\\build\\test-framework\\testFnWrapper.js:45:32)\n                    at processTicksAndRejections (node:internal/process/task_queues:96:5)\n                    at Object.wrapPromiseWithTimeout (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\time.ts:56:10)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\user_code_runner.ts:86:16)\n                    at Object.run (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\step_runner.ts:50:20)\n                    at TestCaseRunner.invokeStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:130:12)\n                    at TestCaseRunner.runStep (C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:307:20)\n                    at C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\node_modules\\@cucumber\\cucumber\\src\\runtime\\test_case_runner.ts:210:36",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given user is on homepage"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6cb6b0f105485680.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

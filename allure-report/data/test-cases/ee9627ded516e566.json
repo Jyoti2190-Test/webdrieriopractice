@@ -1,0 +1,92 @@
+{
+  "uid" : "ee9627ded516e566",
+  "name" : "When the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
+  "fullName" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials.When the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
+  "historyId" : "c761132092c46aebf02ca860f72b6ecb",
+  "time" : {
+    "start" : 1641815538986,
+    "stop" : 1641815538986,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"the user enters username as \"tomsmith\" and password as \"SuperPassword!\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"the user enters username as \"tomsmith\" and password as \"SuperPassword!\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test\\features\\login.feature):1:1\n                \tat Scenario(The one where user logs in using invalid credentials):11:5\n                \tat Step(the user enters username as \"<username>\" and password as \"<password>\"):12:9\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "When the user enters username as \"tomsmith\" and password as \"SuperPassword!\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f3cca4068f5a2e50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808975428,
+        "stop" : 1641808976288,
+        "duration" : 860
+      }
+    }, {
+      "uid" : "9961d905a44e3e9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803298658,
+        "stop" : 1641803298926,
+        "duration" : 268
+      }
+    }, {
+      "uid" : "367d04237e0cacae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803025999,
+        "stop" : 1641803026318,
+        "duration" : 319
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ee9627ded516e566.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

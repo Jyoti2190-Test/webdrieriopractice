@@ -1,0 +1,92 @@
+{
+  "uid" : "3a7eace16adf656d",
+  "name" : "Then the user must remain on login page displaying a message \"Your password is invalid!\"",
+  "fullName" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials.Then the user must remain on login page displaying a message \"Your password is invalid!\"",
+  "historyId" : "1e370574f7618db28515777916c6eb82",
+  "time" : {
+    "start" : 1641815538986,
+    "stop" : 1641815538987,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"the user must remain on login page displaying a message \"Your password is invalid!\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"the user must remain on login page displaying a message \"Your password is invalid!\"\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test\\features\\login.feature):1:1\n                \tat Scenario(The one where user logs in using invalid credentials):11:5\n                \tat Step(the user must remain on login page displaying a message \"<errorMessage>\"):14:9\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user must remain on login page displaying a message \"Your password is invalid!\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bf210a7778469375",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808976301,
+        "stop" : 1641808977400,
+        "duration" : 1099
+      }
+    }, {
+      "uid" : "2ce2818ba42c520b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803298933,
+        "stop" : 1641803299740,
+        "duration" : 807
+      }
+    }, {
+      "uid" : "f8f9911581ade177",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803026323,
+        "stop" : 1641803027138,
+        "duration" : 815
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3a7eace16adf656d.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

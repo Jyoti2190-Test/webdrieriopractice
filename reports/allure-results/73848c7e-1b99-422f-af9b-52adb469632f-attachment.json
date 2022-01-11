@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//span[@id='__label1-__clone0-text']/bdi"
+}

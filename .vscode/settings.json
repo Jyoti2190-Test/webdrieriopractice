@@ -1,0 +1,10 @@
+{
+    "cucumberautocomplete.steps": [
+        "Test-CatMan/step-definitions/*.js",
+    ],
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.syncfeatures": "Test-CatMan/features/*.feature",
+    "cucumberautocomplete.smartSnippets": true ,
+    "cucumberautocomplete.stepsInvariants": true ,
+    "cucumberautocomplete.onTypeFormat": true
+}

@@ -1,0 +1,1028 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "To test the purchasing categories in Taxonomy: User should be able to create category",
+    "children" : [ {
+      "name" : "Given user is on homepage",
+      "uid" : "a8cae3d24aa31fbc",
+      "parentUid" : "5c159d9599b9b86b286bed8ffcc5b77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815509424,
+        "stop" : 1641815521881,
+        "duration" : 12457
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "When Create Category is available",
+      "uid" : "3fe5e9108edbc4ce",
+      "parentUid" : "5c159d9599b9b86b286bed8ffcc5b77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815521881,
+        "stop" : 1641815522176,
+        "duration" : 295
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "When Click on Create Cqtegory",
+      "uid" : "2e8596710dcaaf95",
+      "parentUid" : "5c159d9599b9b86b286bed8ffcc5b77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815522176,
+        "stop" : 1641815522568,
+        "duration" : 392
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then New Category Tab should be available",
+      "uid" : "6a861617c4b495f9",
+      "parentUid" : "5c159d9599b9b86b286bed8ffcc5b77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815522568,
+        "stop" : 1641815527657,
+        "duration" : 5089
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 11,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "",
+      "uid" : "24337e9ff107e1fa",
+      "parentUid" : "5c159d9599b9b86b286bed8ffcc5b77e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815527658,
+        "stop" : 1641815527658,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 23,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "5c159d9599b9b86b286bed8ffcc5b77e"
+  }, {
+    "name" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials",
+    "children" : [ {
+      "name" : "Given the user is on login page",
+      "uid" : "75b7c5a1a496255c",
+      "parentUid" : "c71c77594e0e8cb0fc8b435bde3abbe3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538937,
+        "stop" : 1641815538938,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+      "uid" : "ab083926581bb691",
+      "parentUid" : "c71c77594e0e8cb0fc8b435bde3abbe3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538938,
+        "stop" : 1641815538939,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "When the user enters username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
+      "uid" : "e7560ffbe6124e4f",
+      "parentUid" : "c71c77594e0e8cb0fc8b435bde3abbe3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538938,
+        "stop" : 1641815538938,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "And clicks on login button",
+      "uid" : "5443011f13ca6e5e",
+      "parentUid" : "c71c77594e0e8cb0fc8b435bde3abbe3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538938,
+        "stop" : 1641815538938,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "",
+      "uid" : "20333ec961abb863",
+      "parentUid" : "c71c77594e0e8cb0fc8b435bde3abbe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815538939,
+        "stop" : 1641815538940,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "c71c77594e0e8cb0fc8b435bde3abbe3"
+  }, {
+    "name" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials",
+    "children" : [ {
+      "name" : "When the user enters username as \"james\" and password as \"SuperSecretPassword!\"",
+      "uid" : "284ef196c6db9a4",
+      "parentUid" : "55f0852393a0253c92294a404d3a774a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538972,
+        "stop" : 1641815538972,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then the user must remain on login page displaying a message \"Your username is invalid!\"",
+      "uid" : "2b1cfc88ef16fdf7",
+      "parentUid" : "55f0852393a0253c92294a404d3a774a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538973,
+        "stop" : 1641815538973,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Given the user is on login page",
+      "uid" : "fef49d019e8565fb",
+      "parentUid" : "55f0852393a0253c92294a404d3a774a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538985,
+        "stop" : 1641815538986,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "And clicks on login button",
+      "uid" : "f49b4fda5899167a",
+      "parentUid" : "55f0852393a0253c92294a404d3a774a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538986,
+        "stop" : 1641815538986,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 7,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then the user must remain on login page displaying a message \"Your password is invalid!\"",
+      "uid" : "3a7eace16adf656d",
+      "parentUid" : "55f0852393a0253c92294a404d3a774a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538986,
+        "stop" : 1641815538987,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "When the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
+      "uid" : "ee9627ded516e566",
+      "parentUid" : "55f0852393a0253c92294a404d3a774a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641815538986,
+        "stop" : 1641815538986,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 3,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "",
+      "uid" : "eb0f4a204ebcbd4a",
+      "parentUid" : "55f0852393a0253c92294a404d3a774a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815538987,
+        "stop" : 1641815538988,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 15,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "55f0852393a0253c92294a404d3a774a"
+  }, {
+    "name" : "To test the purchasing categories in Taxonomy: User should be able to create New Category",
+    "children" : [ {
+      "name" : "Then Enter the \"Test\" , \"a24\"",
+      "uid" : "e140688f55a2f37a",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641877181282,
+        "stop" : 1641877190059,
+        "duration" : 8777
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 24,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"Test1\" , \"a24\"",
+      "uid" : "7300f85e093df777",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641880852881,
+        "stop" : 1641880859939,
+        "duration" : 7058
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 4,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"Test3\" , \"a24\"",
+      "uid" : "a4b6e8bbc4d8ded6",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "failed",
+      "time" : {
+        "start" : 1641883991475,
+        "stop" : 1641884040769,
+        "duration" : 49294
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"Test3\" and click Search",
+      "uid" : "1ae73455d4fd6399",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641884040769,
+        "stop" : 0,
+        "duration" : -1641884040769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"Test4\" , \"a24\"",
+      "uid" : "f479addbd3b0e039",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641884192815,
+        "stop" : 1641884201064,
+        "duration" : 8249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"Test4\" and click Search",
+      "uid" : "c7b7b0d5fc3a5529",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641884201064,
+        "stop" : 0,
+        "duration" : -1641884201064
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"Test5\" , \"a24\"",
+      "uid" : "f76531fec4affa19",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "failed",
+      "time" : {
+        "start" : 1641885022104,
+        "stop" : 1641885033302,
+        "duration" : 11198
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"Test5\" and click Search",
+      "uid" : "f2a2d392bf4764c8",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641885033303,
+        "stop" : 0,
+        "duration" : -1641885033303
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 2,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"Test6\" , \"a24\"",
+      "uid" : "cad73a269c29319f",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641885392255,
+        "stop" : 1641885405594,
+        "duration" : 13339
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"Test6\" and click Search",
+      "uid" : "108d2b1bc14d4c0f",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641885405594,
+        "stop" : 0,
+        "duration" : -1641885405594
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"Test7\" , \"a24\"",
+      "uid" : "97bfdfea6344cf0e",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641885556416,
+        "stop" : 1641885566316,
+        "duration" : 9900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"Test7\" and click Search",
+      "uid" : "91cf356ad30c3e5f",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641885566316,
+        "stop" : 0,
+        "duration" : -1641885566316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc1\" , \"a24\"",
+      "uid" : "2e5e6e49e8ba4579",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641885734483,
+        "stop" : 1641885763937,
+        "duration" : 29454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc1\" and click Search",
+      "uid" : "71cbb427a6ed5d09",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641885763937,
+        "stop" : 0,
+        "duration" : -1641885763937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc2\" , \"a24\"",
+      "uid" : "d0cde876712f9400",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641886478993,
+        "stop" : 1641886493893,
+        "duration" : 14900
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc2\" and click Search",
+      "uid" : "5292c5fb002c0fa9",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641886493894,
+        "stop" : 0,
+        "duration" : -1641886493894
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc4\" , \"a24\"",
+      "uid" : "86fe67ad1b054fd",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641886597053,
+        "stop" : 1641886604945,
+        "duration" : 7892
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc4\" and click Search",
+      "uid" : "fc3575e648331559",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641886604946,
+        "stop" : 0,
+        "duration" : -1641886604946
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc5\" , \"a24\"",
+      "uid" : "91921df834dcc86",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "broken",
+      "time" : {
+        "start" : 1641887201167,
+        "stop" : 1641887313740,
+        "duration" : 112573
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc5\" and click Search",
+      "uid" : "d3d83b77cbb13cfc",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641887313740,
+        "stop" : 0,
+        "duration" : -1641887313740
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc6\" , \"a24\"",
+      "uid" : "ffcb53b39218ffb2",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641888267620,
+        "stop" : 1641888311833,
+        "duration" : 44213
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc6\" and click Search",
+      "uid" : "3458f614a2fef4e9",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641888311833,
+        "stop" : 1641888312795,
+        "duration" : 962
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc7\" , \"a24\"",
+      "uid" : "8f301bad53a66f7",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641888637810,
+        "stop" : 1641888645677,
+        "duration" : 7867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc7\" and click Search",
+      "uid" : "2347d140a10836ce",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641888645677,
+        "stop" : 1641888651574,
+        "duration" : 5897
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc8\" , \"a24\"",
+      "uid" : "121bf9b12b33f53a",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641888864041,
+        "stop" : 1641888872693,
+        "duration" : 8652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc8\" and click Search",
+      "uid" : "5fd455aa345790e5",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641888872693,
+        "stop" : 1641888873828,
+        "duration" : 1135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc9\" , \"a24\"",
+      "uid" : "2c5a509f3e121778",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641889083617,
+        "stop" : 1641889092019,
+        "duration" : 8402
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc9\" and click Search",
+      "uid" : "359618fa44110e8b",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641889092019,
+        "stop" : 1641889095176,
+        "duration" : 3157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc10\" , \"a24\"",
+      "uid" : "a2568d9517829d19",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641892970269,
+        "stop" : 1641892973155,
+        "duration" : 2886
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc10\" and click Search",
+      "uid" : "b0bac2539f393eb",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641892973155,
+        "stop" : 1641892974355,
+        "duration" : 1200
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc11\" , \"a24\"",
+      "uid" : "9f2acd592228c6ee",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "failed",
+      "time" : {
+        "start" : 1641893463943,
+        "stop" : 1641893475547,
+        "duration" : 11604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc11\" and click Search",
+      "uid" : "c603c7a0c1cef55b",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641893475547,
+        "stop" : 0,
+        "duration" : -1641893475547
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Given user is on homepage",
+      "uid" : "3ee658dffcd507b3",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896630810,
+        "stop" : 1641896635960,
+        "duration" : 5150
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 51,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Click on Create Category",
+      "uid" : "7c3318d16696fff",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896635960,
+        "stop" : 1641896636087,
+        "duration" : 127
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 51,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Enter the \"abc12\" , \"a24\"",
+      "uid" : "a8dafa006eb52596",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896636088,
+        "stop" : 1641896644160,
+        "duration" : 8072
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Input the details for search name \"abc12\" and click Search",
+      "uid" : "7f66d5faa10863f3",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896644160,
+        "stop" : 1641896645667,
+        "duration" : 1507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "",
+      "uid" : "5533f59e9622e88a",
+      "parentUid" : "687a9abbf6fe6d938999c0876037c423",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896645667,
+        "stop" : 1641896645667,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 103,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "687a9abbf6fe6d938999c0876037c423"
+  }, {
+    "name" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window",
+    "children" : [ {
+      "name" : "Given user is on homepage",
+      "uid" : "dc8340269b6093ac",
+      "parentUid" : "2653cf63ebe154ef7b22feb38c4d5cd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896595120,
+        "stop" : 1641896620275,
+        "duration" : 25155
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 52,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "When Create Category is available",
+      "uid" : "4907bf7f3ae151dd",
+      "parentUid" : "2653cf63ebe154ef7b22feb38c4d5cd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896620276,
+        "stop" : 1641896621027,
+        "duration" : 751
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 52,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then Click on Create Category",
+      "uid" : "410c897ab1045b07",
+      "parentUid" : "2653cf63ebe154ef7b22feb38c4d5cd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896621028,
+        "stop" : 1641896625997,
+        "duration" : 4969
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 52,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "Then New Category Tab should be available",
+      "uid" : "d04cea44d5c3847f",
+      "parentUid" : "2653cf63ebe154ef7b22feb38c4d5cd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896625998,
+        "stop" : 1641896630784,
+        "duration" : 4786
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 52,
+      "retriesStatusChange" : true,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    }, {
+      "name" : "",
+      "uid" : "a53c68caa7a21b4e",
+      "parentUid" : "2653cf63ebe154ef7b22feb38c4d5cd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896630784,
+        "stop" : 1641896630786,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 105,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-97.0.4692.71" ]
+    } ],
+    "uid" : "2653cf63ebe154ef7b22feb38c4d5cd4"
+  } ]
+}

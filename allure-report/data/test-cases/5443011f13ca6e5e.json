@@ -1,0 +1,92 @@
+{
+  "uid" : "5443011f13ca6e5e",
+  "name" : "And clicks on login button",
+  "fullName" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials.And clicks on login button",
+  "historyId" : "78d9672596bea547788a5771cfbe7b93",
+  "time" : {
+    "start" : 1641815538938,
+    "stop" : 1641815538938,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Step \"clicks on login button\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+  "statusTrace" : "Step \"clicks on login button\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.\n                \tat Feature(C:\\Users\\jyoti.singhal@sap.com\\Documents\\WebDriverIO_Cucumber_Project\\Test\\features\\login.feature):1:1\n                \tat Scenario(The one where user logs in using valid credentials):6:5\n                \tat Step(clicks on login button):8:9\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "And clicks on login button"
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using valid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5345e31e86bdc8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808971385,
+        "stop" : 1641808971394,
+        "duration" : 9
+      }
+    }, {
+      "uid" : "31f9a36790d65879",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803295841,
+        "stop" : 1641803295849,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "9abd17fcfefe8522",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803022848,
+        "stop" : 1641803022855,
+        "duration" : 7
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5443011f13ca6e5e.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

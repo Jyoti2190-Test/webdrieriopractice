@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1641815538934' stop='1641815538942'>
+    <name>To test the login functionality in "The Internet Herokuapp": The one where user logs in using valid credentials</name>
+    <title>To test the login functionality in "The Internet Herokuapp": The one where user logs in using valid credentials</title>
+    <test-cases>
+        <test-case start='1641815538935' status='passed' stop='1641815538936'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1641815538937' status='broken' stop='1641815538938'>
+            <name>Given the user is on login page</name>
+            <title>Given the user is on login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "the user is on login page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "the user is on login page" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\jyoti.singhal@sap.com\Documents\WebDriverIO_Cucumber_Project\Test\features\login.feature):1:1
+                	at Scenario(The one where user logs in using valid credentials):6:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641815538938' status='broken' stop='1641815538938'>
+            <name>When the user enters username as "tomsmith" and password as "SuperSecretPassword!"</name>
+            <title>When the user enters username as "tomsmith" and password as "SuperSecretPassword!"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "the user enters username as "tomsmith" and password as "SuperSecretPassword!"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "the user enters username as "tomsmith" and password as "SuperSecretPassword!"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\jyoti.singhal@sap.com\Documents\WebDriverIO_Cucumber_Project\Test\features\login.feature):1:1
+                	at Scenario(The one where user logs in using valid credentials):6:5
+                	at Step(the user enters username as "tomsmith" and password as "SuperSecretPassword!"):7:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641815538938' status='broken' stop='1641815538938'>
+            <name>And clicks on login button</name>
+            <title>And clicks on login button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "clicks on login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "clicks on login button" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\jyoti.singhal@sap.com\Documents\WebDriverIO_Cucumber_Project\Test\features\login.feature):1:1
+                	at Scenario(The one where user logs in using valid credentials):6:5
+                	at Step(clicks on login button):8:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641815538938' status='broken' stop='1641815538939'>
+            <name>Then the user must navigate to secure area page displaying a message "You logged into a secure area!"</name>
+            <title>Then the user must navigate to secure area page displaying a message "You logged into a secure area!"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "the user must navigate to secure area page displaying a message "You logged into a secure area!"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "the user must navigate to secure area page displaying a message "You logged into a secure area!"" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\jyoti.singhal@sap.com\Documents\WebDriverIO_Cucumber_Project\Test\features\login.feature):1:1
+                	at Scenario(The one where user logs in using valid credentials):6:5
+                	at Step(the user must navigate to secure area page displaying a message "You logged into a secure area!"):9:9
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1641815538939' status='passed' stop='1641815538940'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-97.0.4692.71'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
