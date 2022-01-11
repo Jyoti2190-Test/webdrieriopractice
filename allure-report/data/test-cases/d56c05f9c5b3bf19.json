@@ -1,0 +1,215 @@
+{
+  "uid" : "d56c05f9c5b3bf19",
+  "name" : "When Create Category is available",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create category.When Create Category is available",
+  "historyId" : "a77c0919934d8594fe9163631e734cd9",
+  "time" : {
+    "start" : 1641815521881,
+    "stop" : 1641815522176,
+    "duration" : 295
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641815521885,
+        "stop" : 1641815522106,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a82671dfb32cbef6",
+        "name" : "Request",
+        "source" : "a82671dfb32cbef6.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "88b0c763e8dd7d4b",
+        "name" : "Response",
+        "source" : "88b0c763e8dd7d4b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641815522116,
+        "stop" : 1641815522169,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c91a8eb123c56507",
+        "name" : "Request",
+        "source" : "c91a8eb123c56507.json",
+        "type" : "application/json",
+        "size" : 62
+      }, {
+        "uid" : "72d89c8c1afa3952",
+        "name" : "Response",
+        "source" : "72d89c8c1afa3952.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testMethod",
+    "value" : "When Create Category is available"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f2e371eadaafc394",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815361795,
+        "stop" : 1641815362537,
+        "duration" : 742
+      }
+    }, {
+      "uid" : "dde8076833732133",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815310178,
+        "stop" : 1641815310273,
+        "duration" : 95
+      }
+    }, {
+      "uid" : "871675ea17da45e8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815217188,
+        "stop" : 1641815217474,
+        "duration" : 286
+      }
+    }, {
+      "uid" : "71104c7b3c6f4272",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641810483564,
+        "stop" : 1641810483876,
+        "duration" : 312
+      }
+    }, {
+      "uid" : "f22bafa4d78906e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641810432967,
+        "stop" : 0,
+        "duration" : -1641810432967
+      }
+    }, {
+      "uid" : "5d83a52aa48c6e5d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641810245033,
+        "stop" : 1641810245424,
+        "duration" : 391
+      }
+    }, {
+      "uid" : "6efbf984bf75c106",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect $(`#__button3-BDI-content`) to exist",
+      "time" : {
+        "start" : 1641809970027,
+        "stop" : 1641809980355,
+        "duration" : 10328
+      }
+    }, {
+      "uid" : "b62227160c9e786f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641809718370,
+        "stop" : 0,
+        "duration" : -1641809718370
+      }
+    }, {
+      "uid" : "1f513782ecc197e8",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641809339446,
+        "stop" : 0,
+        "duration" : -1641809339446
+      }
+    }, {
+      "uid" : "574cf07d16696368",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641809251253,
+        "stop" : 0,
+        "duration" : -1641809251253
+      }
+    }, {
+      "uid" : "87c2d200dd663703",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641809112213,
+        "stop" : 0,
+        "duration" : -1641809112213
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d56c05f9c5b3bf19.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

@@ -1,0 +1,217 @@
+{
+  "uid" : "1feee26ccaeab28e",
+  "name" : "Then New Category Tab should be available",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create category.Then New Category Tab should be available",
+  "historyId" : "edcb8074e16a14cf2cdc0ab1b8954f23",
+  "time" : {
+    "start" : 1641815522568,
+    "stop" : 1641815527657,
+    "duration" : 5089
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641815527585,
+        "stop" : 1641815527617,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62978f214caf8868",
+        "name" : "Request",
+        "source" : "62978f214caf8868.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "4147a200f9cedfa3",
+        "name" : "Response",
+        "source" : "4147a200f9cedfa3.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641815527620,
+        "stop" : 1641815527654,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "87eeab817aa8adb8",
+        "name" : "Request",
+        "source" : "87eeab817aa8adb8.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "8597c5128e257c88",
+        "name" : "Response",
+        "source" : "8597c5128e257c88.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then New Category Tab should be available"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7eee4af1f70b02b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815363242,
+        "stop" : 1641815368335,
+        "duration" : 5093
+      }
+    }, {
+      "uid" : "d9b33a7d6d84c560",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815310395,
+        "stop" : 1641815315498,
+        "duration" : 5103
+      }
+    }, {
+      "uid" : "562bab03c11fce0c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: elem[prop] is not a function",
+      "time" : {
+        "start" : 1641815217839,
+        "stop" : 1641815222899,
+        "duration" : 5060
+      }
+    }, {
+      "uid" : "c6b81e250e27e9b1",
+      "status" : "broken",
+      "statusDetails" : "TypeError: browser.delay is not a function",
+      "time" : {
+        "start" : 1641810484214,
+        "stop" : 1641810484244,
+        "duration" : 30
+      }
+    }, {
+      "uid" : "8a1e30de2ad1383",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641810432968,
+        "stop" : 0,
+        "duration" : -1641810432968
+      }
+    }, {
+      "uid" : "95c1365984d64129",
+      "status" : "broken",
+      "statusDetails" : "TypeError: elem[prop] is not a function",
+      "time" : {
+        "start" : 1641810245981,
+        "stop" : 1641810246135,
+        "duration" : 154
+      }
+    }, {
+      "uid" : "c40b65a61ccc456b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641809980356,
+        "stop" : 0,
+        "duration" : -1641809980356
+      }
+    }, {
+      "uid" : "6bea3ad42fa70e67",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641809718371,
+        "stop" : 0,
+        "duration" : -1641809718371
+      }
+    }, {
+      "uid" : "c268ecfb50ad0256",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641809339447,
+        "stop" : 0,
+        "duration" : -1641809339447
+      }
+    }, {
+      "uid" : "352a8f707dd1250f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641809251256,
+        "stop" : 0,
+        "duration" : -1641809251256
+      }
+    }, {
+      "uid" : "14be94e9e38fe33d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641809112213,
+        "stop" : 0,
+        "duration" : -1641809112213
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1feee26ccaeab28e.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

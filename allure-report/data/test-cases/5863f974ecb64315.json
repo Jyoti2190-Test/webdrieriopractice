@@ -1,0 +1,480 @@
+{
+  "uid" : "5863f974ecb64315",
+  "name" : "Given user is on homepage",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to create category.Given user is on homepage",
+  "historyId" : "b5c5dcd65d5854d5f21327b951fb6fcb",
+  "time" : {
+    "start" : 1641815509424,
+    "stop" : 1641815521881,
+    "duration" : 12457
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 11,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1641815509429,
+        "stop" : 1641815515078,
+        "duration" : 5649
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fbe96dceb7e1fd0d",
+        "name" : "Request",
+        "source" : "fbe96dceb7e1fd0d.json",
+        "type" : "application/json",
+        "size" : 182
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815515081,
+        "stop" : 1641815515118,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9d6ac8833da849f",
+        "name" : "Response",
+        "source" : "e9d6ac8833da849f.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815515583,
+        "stop" : 1641815516404,
+        "duration" : 821
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b7e5040a0ebafbcc",
+        "name" : "Response",
+        "source" : "b7e5040a0ebafbcc.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815516416,
+        "stop" : 1641815516449,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9189d5ca72e3076c",
+        "name" : "Response",
+        "source" : "9189d5ca72e3076c.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815516582,
+        "stop" : 1641815516600,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8811f519467e37a",
+        "name" : "Response",
+        "source" : "a8811f519467e37a.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815517085,
+        "stop" : 1641815517111,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8dc6ca47523e175e",
+        "name" : "Response",
+        "source" : "8dc6ca47523e175e.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815517586,
+        "stop" : 1641815517612,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ca58b79091e13085",
+        "name" : "Response",
+        "source" : "ca58b79091e13085.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815518087,
+        "stop" : 1641815518110,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68933fa6d9a663e8",
+        "name" : "Response",
+        "source" : "68933fa6d9a663e8.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815518583,
+        "stop" : 1641815518605,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ddef5e17508f04d1",
+        "name" : "Response",
+        "source" : "ddef5e17508f04d1.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815519089,
+        "stop" : 1641815519116,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f777d0d757d3368",
+        "name" : "Response",
+        "source" : "8f777d0d757d3368.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815519590,
+        "stop" : 1641815519611,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3ad528b546182c5",
+        "name" : "Response",
+        "source" : "d3ad528b546182c5.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815520098,
+        "stop" : 1641815520122,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "73614455d8f70092",
+        "name" : "Response",
+        "source" : "73614455d8f70092.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815520587,
+        "stop" : 1641815521340,
+        "duration" : 753
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43c8bf822216013c",
+        "name" : "Response",
+        "source" : "43c8bf822216013c.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815521351,
+        "stop" : 1641815521386,
+        "duration" : 35
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8dc35bcfcae911e",
+        "name" : "Response",
+        "source" : "d8dc35bcfcae911e.json",
+        "type" : "application/json",
+        "size" : 43
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1641815521582,
+        "stop" : 1641815521874,
+        "duration" : 292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d03167decc26585",
+        "name" : "Response",
+        "source" : "4d03167decc26585.json",
+        "type" : "application/json",
+        "size" : 10
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 15,
+    "hasContent" : true,
+    "stepsCount" : 15
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given user is on homepage"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to create category"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "cef1e000f556f914",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815351771,
+        "stop" : 1641815361795,
+        "duration" : 10024
+      }
+    }, {
+      "uid" : "955f6142843b1871",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815299843,
+        "stop" : 1641815310178,
+        "duration" : 10335
+      }
+    }, {
+      "uid" : "77a27e4d01929f50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815204007,
+        "stop" : 1641815217188,
+        "duration" : 13181
+      }
+    }, {
+      "uid" : "80bbcb5bfee5c785",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641810472785,
+        "stop" : 1641810483564,
+        "duration" : 10779
+      }
+    }, {
+      "uid" : "932bfd3cd2916d98",
+      "status" : "failed",
+      "statusDetails" : "Error: Expect window to have title",
+      "time" : {
+        "start" : 1641810417182,
+        "stop" : 1641810432967,
+        "duration" : 15785
+      }
+    }, {
+      "uid" : "73288a8aa8cf13a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641810234041,
+        "stop" : 1641810245033,
+        "duration" : 10992
+      }
+    }, {
+      "uid" : "46be173cff7341f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641809958417,
+        "stop" : 1641809970026,
+        "duration" : 11609
+      }
+    }, {
+      "uid" : "7cf2f6f0b8ba5f5b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: _homepage.default.open is not a function",
+      "time" : {
+        "start" : 1641809718343,
+        "stop" : 1641809718370,
+        "duration" : 27
+      }
+    }, {
+      "uid" : "8dc082f8244acb0",
+      "status" : "broken",
+      "statusDetails" : "TypeError: _homepage.default.open is not a function",
+      "time" : {
+        "start" : 1641809339390,
+        "stop" : 1641809339445,
+        "duration" : 55
+      }
+    }, {
+      "uid" : "b8c8449cecc4f1d4",
+      "status" : "broken",
+      "statusDetails" : "Step \"user is on homepage\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1641809251251,
+        "stop" : 1641809251253,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "d494772c782e08b0",
+      "status" : "broken",
+      "statusDetails" : "Step \"user is on homepage\" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.",
+      "time" : {
+        "start" : 1641809112212,
+        "stop" : 1641809112213,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5863f974ecb64315.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

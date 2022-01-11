@@ -1,0 +1,182 @@
+{
+  "uid" : "d1049d264bd24dd3",
+  "name" : "",
+  "fullName" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials.",
+  "historyId" : "7ac326b6f0c61bb2773a6b1da3ddbfcb",
+  "time" : {
+    "start" : 1641815538987,
+    "stop" : 1641815538988,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 15,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : ""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8007645c08305013",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815538985,
+        "stop" : 1641815538985,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "99b8219465b85ec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815538973,
+        "stop" : 1641815538974,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "8fd9ea419a377fa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641815538971,
+        "stop" : 1641815538971,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "28abcb381f7d7030",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808977400,
+        "stop" : 1641808977400,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "87996f7c605114bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808974913,
+        "stop" : 1641808974914,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "edcd0a4f1901ef5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808974882,
+        "stop" : 1641808974882,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ccb539f776110da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641808972621,
+        "stop" : 1641808972621,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "a1d35e21b6104663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803299740,
+        "stop" : 1641803299741,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4164177f47294a40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803298315,
+        "stop" : 1641803298316,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f1ec882afbf16097",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803298295,
+        "stop" : 1641803298295,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6c2947e1c03e6645",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803296810,
+        "stop" : 1641803296810,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8d2e7c141bf2e00f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803027138,
+        "stop" : 1641803027139,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "47a038172eb4e842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803025606,
+        "stop" : 1641803025606,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b133c489297b60d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803025592,
+        "stop" : 1641803025592,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "41b504930d49c976",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641803023998,
+        "stop" : 1641803023999,
+        "duration" : 1
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1049d264bd24dd3.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

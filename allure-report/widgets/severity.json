@@ -1,35 +1,5 @@
 [ {
-  "uid" : "4721af211495e967",
-  "name" : "And clicks on login button",
-  "time" : {
-    "start" : 1641815538986,
-    "stop" : 1641815538986,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "26c9feed3f93bd6c",
-  "name" : "Then Input the details for search name \"abc6\" and click Search",
-  "time" : {
-    "start" : 1641888311833,
-    "stop" : 1641888312795,
-    "duration" : 962
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b820fec8b72d8e55",
-  "name" : "Then Enter the \"abc8\" , \"a24\"",
-  "time" : {
-    "start" : 1641888864041,
-    "stop" : 1641888872693,
-    "duration" : 8652
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7bd484e10e527875",
+  "uid" : "1f7e82dd7d780da3",
   "name" : "Then Enter the \"abc9\" , \"a24\"",
   "time" : {
     "start" : 1641889083617,
@@ -39,37 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5566cb652bba8dff",
-  "name" : "Then Enter the \"abc5\" , \"a24\"",
-  "time" : {
-    "start" : 1641887201167,
-    "stop" : 1641887313740,
-    "duration" : 112573
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ec2c1b87a910b8e2",
-  "name" : "When the user enters username as \"james\" and password as \"SuperSecretPassword!\"",
-  "time" : {
-    "start" : 1641815538972,
-    "stop" : 1641815538972,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7a3b876f86b7b219",
-  "name" : "Then New Category Tab should be available",
-  "time" : {
-    "start" : 1641915716206,
-    "stop" : 1641915717269,
-    "duration" : 1063
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6de74a3ae3df7a90",
+  "uid" : "50de83819fe3cea8",
   "name" : "Then Enter the \"Test\" , \"a24\"",
   "time" : {
     "start" : 1641877181282,
@@ -79,127 +19,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "5469d854fde1fb38",
-  "name" : "",
-  "time" : {
-    "start" : 1641815527658,
-    "stop" : 1641815527658,
-    "duration" : 0
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d72c64a48adb0a8e",
-  "name" : "Then Input the details for search name \"abc1\" and click Search",
-  "time" : {
-    "start" : 1641885763937,
-    "stop" : 0,
-    "duration" : -1641885763937
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "c391a655a1ccf645",
-  "name" : "Then Input the details for search name \"abc7\" and click Search",
-  "time" : {
-    "start" : 1641888645677,
-    "stop" : 1641888651574,
-    "duration" : 5897
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3622203b4736f0b4",
-  "name" : "Then Click on Create Category",
-  "time" : {
-    "start" : 1641915722431,
-    "stop" : 1641915722619,
-    "duration" : 188
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3be42f84610db3f6",
-  "name" : "Then Input the details for search name \"abc11\" and click Search",
-  "time" : {
-    "start" : 1641893475547,
-    "stop" : 0,
-    "duration" : -1641893475547
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "fe91b275971ab84d",
-  "name" : "Then Enter the \"Test7\" , \"a24\"",
-  "time" : {
-    "start" : 1641885556416,
-    "stop" : 1641885566316,
-    "duration" : 9900
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "da753a5979de6336",
-  "name" : "Then the user must remain on login page displaying a message \"Your username is invalid!\"",
-  "time" : {
-    "start" : 1641815538973,
-    "stop" : 1641815538973,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "2365790f9b931c89",
-  "name" : "Then Enter the \"abc6\" , \"a24\"",
-  "time" : {
-    "start" : 1641888267620,
-    "stop" : 1641888311833,
-    "duration" : 44213
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a2efb9cfee8bb4b0",
-  "name" : "Then Input the details for search name \"abc9\" and click Search",
-  "time" : {
-    "start" : 1641889092019,
-    "stop" : 1641889095176,
-    "duration" : 3157
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fa4443061d7a48c4",
-  "name" : "When Click on Create Cqtegory",
-  "time" : {
-    "start" : 1641815522176,
-    "stop" : 1641815522568,
-    "duration" : 392
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "926695f8d749c74c",
-  "name" : "Given user is on homepage",
-  "time" : {
-    "start" : 1641815509424,
-    "stop" : 1641815521881,
-    "duration" : 12457
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "11e7febaded0595b",
-  "name" : "Then Input the details for search name \"abc10\" and click Search",
-  "time" : {
-    "start" : 1641892973155,
-    "stop" : 1641892974355,
-    "duration" : 1200
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8fc65543e3460915",
+  "uid" : "d5772352924397ea",
   "name" : "Given the user is on login page",
   "time" : {
     "start" : 1641815538985,
@@ -209,157 +29,37 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "ccbf688f1b13c144",
-  "name" : "Then Input the details for search name \"Test4\" and click Search",
+  "uid" : "46a59dd6ddff1e1e",
+  "name" : "Then Input the details for search name \"abc1\" and click Search",
   "time" : {
-    "start" : 1641884201064,
+    "start" : 1641885763937,
     "stop" : 0,
-    "duration" : -1641884201064
+    "duration" : -1641885763937
   },
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "dc31067f01d9c062",
-  "name" : "",
+  "uid" : "89afc038b483382e",
+  "name" : "Then Input the details for search name \"abc9\" and click Search",
   "time" : {
-    "start" : 1641915734011,
-    "stop" : 1641915734011,
-    "duration" : 0
+    "start" : 1641889092019,
+    "stop" : 1641889095176,
+    "duration" : 3157
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "1ca625554d7cb5c7",
-  "name" : "Then Input the details for search name \"abc2\" and click Search",
+  "uid" : "17d28db64b805b40",
+  "name" : "Then New Category Tab should be available",
   "time" : {
-    "start" : 1641886493894,
-    "stop" : 0,
-    "duration" : -1641886493894
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "617d7fe497bd9b4a",
-  "name" : "Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
-  "time" : {
-    "start" : 1641815538938,
-    "stop" : 1641815538939,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "ecf969764bc9611a",
-  "name" : "Then Input the details for search name \"Test6\" and click Search",
-  "time" : {
-    "start" : 1641885405594,
-    "stop" : 0,
-    "duration" : -1641885405594
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "bf6b2aa01c2b76e7",
-  "name" : "When Create Category is available",
-  "time" : {
-    "start" : 1641915710487,
-    "stop" : 1641915711269,
-    "duration" : 782
+    "start" : 1641915716206,
+    "stop" : 1641915717269,
+    "duration" : 1063
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6452001d38ef613",
-  "name" : "And clicks on login button",
-  "time" : {
-    "start" : 1641815538938,
-    "stop" : 1641815538938,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "e4436b9a39a55311",
-  "name" : "Then Enter the \"Test1\" , \"a24\"",
-  "time" : {
-    "start" : 1641880852881,
-    "stop" : 1641880859939,
-    "duration" : 7058
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "237dcebde6923ca9",
-  "name" : "Then Enter the \"Test5\" , \"a24\"",
-  "time" : {
-    "start" : 1641885022104,
-    "stop" : 1641885033302,
-    "duration" : 11198
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "13d57fd2baf37106",
-  "name" : "Then Input the details for search name \"Test3\" and click Search",
-  "time" : {
-    "start" : 1641884040769,
-    "stop" : 0,
-    "duration" : -1641884040769
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "7e90a337b4b2d09f",
-  "name" : "Then Enter the \"abc11\" , \"a24\"",
-  "time" : {
-    "start" : 1641893463943,
-    "stop" : 1641893475547,
-    "duration" : 11604
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f695455556e0addb",
-  "name" : "Given the user is on login page",
-  "time" : {
-    "start" : 1641815538937,
-    "stop" : 1641815538938,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "71cfeff47829281f",
-  "name" : "Then Enter the \"Test3\" , \"a24\"",
-  "time" : {
-    "start" : 1641883991475,
-    "stop" : 1641884040769,
-    "duration" : 49294
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "d79d7fcc8d0baaf5",
-  "name" : "Then Input the details for search name \"Test7\" and click Search",
-  "time" : {
-    "start" : 1641885566316,
-    "stop" : 0,
-    "duration" : -1641885566316
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "5f40f438d81b4955",
-  "name" : "",
-  "time" : {
-    "start" : 1641815538939,
-    "stop" : 1641815538940,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "916eeff6922c2725",
+  "uid" : "d56c05f9c5b3bf19",
   "name" : "When Create Category is available",
   "time" : {
     "start" : 1641815521881,
@@ -369,167 +69,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "43ecb0f99281c1c7",
-  "name" : "Then Click on Create Category",
-  "time" : {
-    "start" : 1641915711269,
-    "stop" : 1641915716206,
-    "duration" : 4937
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e47d11016116cbac",
-  "name" : "Given user is on homepage",
-  "time" : {
-    "start" : 1641915717301,
-    "stop" : 1641915722431,
-    "duration" : 5130
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d061d944a36ef0a5",
-  "name" : "When the user enters username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
-  "time" : {
-    "start" : 1641815538938,
-    "stop" : 1641815538938,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "71d630e9e2065c6",
-  "name" : "Then Enter the \"abc1\" , \"a24\"",
-  "time" : {
-    "start" : 1641885734483,
-    "stop" : 1641885763937,
-    "duration" : 29454
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "3f3a35fba113b89a",
-  "name" : "Then Input the details for search name \"abc4\" and click Search",
-  "time" : {
-    "start" : 1641886604946,
-    "stop" : 0,
-    "duration" : -1641886604946
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "82ac5904e4c0fc65",
-  "name" : "Then Enter the \"Test6\" , \"a24\"",
-  "time" : {
-    "start" : 1641885392255,
-    "stop" : 1641885405594,
-    "duration" : 13339
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "446236c6b92b7a86",
-  "name" : "Then the user must remain on login page displaying a message \"Your password is invalid!\"",
-  "time" : {
-    "start" : 1641815538986,
-    "stop" : 1641815538987,
-    "duration" : 1
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "bbc771bc277a6126",
-  "name" : "Then Enter the \"abc12\" , \"a24\"",
-  "time" : {
-    "start" : 1641915722620,
-    "stop" : 1641915734010,
-    "duration" : 11390
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "ebafa5db8d2d6d10",
-  "name" : "",
-  "time" : {
-    "start" : 1641815538987,
-    "stop" : 1641815538988,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "53f07a95622fef32",
-  "name" : "Then Enter the \"Test4\" , \"a24\"",
-  "time" : {
-    "start" : 1641884192815,
-    "stop" : 1641884201064,
-    "duration" : 8249
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "37feaebaa256071e",
-  "name" : "Then Input the details for search name \"abc5\" and click Search",
-  "time" : {
-    "start" : 1641887313740,
-    "stop" : 0,
-    "duration" : -1641887313740
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "c3a027a45502adc2",
-  "name" : "Then Enter the \"abc7\" , \"a24\"",
-  "time" : {
-    "start" : 1641888637810,
-    "stop" : 1641888645677,
-    "duration" : 7867
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "26425243f2d813a2",
-  "name" : "When the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
-  "time" : {
-    "start" : 1641815538986,
-    "stop" : 1641815538986,
-    "duration" : 0
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "322990da9ef95ddc",
-  "name" : "Then Enter the \"abc2\" , \"a24\"",
-  "time" : {
-    "start" : 1641886478993,
-    "stop" : 1641886493893,
-    "duration" : 14900
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7738201632042862",
-  "name" : "Then Input the details for search name \"Test5\" and click Search",
-  "time" : {
-    "start" : 1641885033303,
-    "stop" : 0,
-    "duration" : -1641885033303
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "defe7a8eec9ecf86",
-  "name" : "Then Input the details for search name \"abc12\" and click Search",
-  "time" : {
-    "start" : 1641915734010,
-    "stop" : 0,
-    "duration" : -1641915734010
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "4c704e122032367c",
+  "uid" : "957ce7869a3c5e32",
   "name" : "",
   "time" : {
     "start" : 1641915717270,
@@ -539,7 +79,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "faad128513e4034f",
+  "uid" : "c7a6e9707f49835f",
+  "name" : "When the user enters username as \"tomsmith\" and password as \"SuperPassword!\"",
+  "time" : {
+    "start" : 1641815538986,
+    "stop" : 1641815538986,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1c1da5249447487",
   "name" : "Then Enter the \"abc10\" , \"a24\"",
   "time" : {
     "start" : 1641892970269,
@@ -549,7 +99,87 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e74324e4986176ec",
+  "uid" : "96ccce43cc260dc2",
+  "name" : "Given the user is on login page",
+  "time" : {
+    "start" : 1641815538937,
+    "stop" : 1641815538938,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a1d85b1d10666ebd",
+  "name" : "Then Input the details for search name \"abc10\" and click Search",
+  "time" : {
+    "start" : 1641892973155,
+    "stop" : 1641892974355,
+    "duration" : 1200
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c7a399336eff740",
+  "name" : "Then Enter the \"Test1\" , \"a24\"",
+  "time" : {
+    "start" : 1641880852881,
+    "stop" : 1641880859939,
+    "duration" : 7058
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "89b0b18796ed5033",
+  "name" : "Then Click on Create Category",
+  "time" : {
+    "start" : 1641915711269,
+    "stop" : 1641915716206,
+    "duration" : 4937
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d7cef1b8ee87b58",
+  "name" : "Then Input the details for search name \"abc11\" and click Search",
+  "time" : {
+    "start" : 1641893475547,
+    "stop" : 0,
+    "duration" : -1641893475547
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "c8831a29859cbf90",
+  "name" : "Then Enter the \"abc8\" , \"a24\"",
+  "time" : {
+    "start" : 1641888864041,
+    "stop" : 1641888872693,
+    "duration" : 8652
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7eaa547046098879",
+  "name" : "Given user is on homepage",
+  "time" : {
+    "start" : 1641915717301,
+    "stop" : 1641915722431,
+    "duration" : 5130
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c2b799aac98dbe12",
+  "name" : "Then the user must navigate to secure area page displaying a message \"You logged into a secure area!\"",
+  "time" : {
+    "start" : 1641815538938,
+    "stop" : 1641815538939,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1feee26ccaeab28e",
   "name" : "Then New Category Tab should be available",
   "time" : {
     "start" : 1641815522568,
@@ -559,17 +189,197 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "cd9067022cbbe34",
-  "name" : "Given user is on homepage",
+  "uid" : "e83671efab4c86a",
+  "name" : "Then Enter the \"Test7\" , \"a24\"",
   "time" : {
-    "start" : 1641915687196,
-    "stop" : 1641915710486,
-    "duration" : 23290
+    "start" : 1641885556416,
+    "stop" : 1641885566316,
+    "duration" : 9900
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "35c7ed6ad6a92e0c",
+  "name" : "Then Input the details for search name \"abc5\" and click Search",
+  "time" : {
+    "start" : 1641887313740,
+    "stop" : 0,
+    "duration" : -1641887313740
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "83fff5bab8ac5d4a",
+  "name" : "Then Input the details for search name \"Test4\" and click Search",
+  "time" : {
+    "start" : 1641884201064,
+    "stop" : 0,
+    "duration" : -1641884201064
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "68028f5cadfe75e4",
+  "name" : "",
+  "time" : {
+    "start" : 1641915734011,
+    "stop" : 1641915734011,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "d3f0b08685a33616",
+  "uid" : "eebe5463bea48a35",
+  "name" : "And clicks on login button",
+  "time" : {
+    "start" : 1641815538986,
+    "stop" : 1641815538986,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f9935dffe293273e",
+  "name" : "When the user enters username as \"james\" and password as \"SuperSecretPassword!\"",
+  "time" : {
+    "start" : 1641815538972,
+    "stop" : 1641815538972,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8f9e6047092b42c6",
+  "name" : "Then the user must remain on login page displaying a message \"Your password is invalid!\"",
+  "time" : {
+    "start" : 1641815538986,
+    "stop" : 1641815538987,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1b23306337d9a70d",
+  "name" : "Then Input the details for search name \"abc12\" and click Search",
+  "time" : {
+    "start" : 1641915734010,
+    "stop" : 0,
+    "duration" : -1641915734010
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "3c28cdf366084c34",
+  "name" : "Then Enter the \"Test4\" , \"a24\"",
+  "time" : {
+    "start" : 1641884192815,
+    "stop" : 1641884201064,
+    "duration" : 8249
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3491c9386f6ed5a9",
+  "name" : "Then Input the details for search name \"abc8\" and click Search",
+  "time" : {
+    "start" : 1641888872693,
+    "stop" : 1641888873828,
+    "duration" : 1135
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a2fe9165ed40df9",
+  "name" : "Then Enter the \"Test5\" , \"a24\"",
+  "time" : {
+    "start" : 1641885022104,
+    "stop" : 1641885033302,
+    "duration" : 11198
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c7363d2441df3db9",
+  "name" : "Then Enter the \"abc1\" , \"a24\"",
+  "time" : {
+    "start" : 1641885734483,
+    "stop" : 1641885763937,
+    "duration" : 29454
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b7ae9e4caffb48af",
+  "name" : "Then Click on Create Category",
+  "time" : {
+    "start" : 1641915722431,
+    "stop" : 1641915722619,
+    "duration" : 188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c2e1a4d4c2f011b",
+  "name" : "Then Enter the \"abc6\" , \"a24\"",
+  "time" : {
+    "start" : 1641888267620,
+    "stop" : 1641888311833,
+    "duration" : 44213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88a5f4fd73d14c98",
+  "name" : "When Click on Create Cqtegory",
+  "time" : {
+    "start" : 1641815522176,
+    "stop" : 1641815522568,
+    "duration" : 392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5863f974ecb64315",
+  "name" : "Given user is on homepage",
+  "time" : {
+    "start" : 1641815509424,
+    "stop" : 1641815521881,
+    "duration" : 12457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f2d880fd643aff3",
+  "name" : "Then Input the details for search name \"abc6\" and click Search",
+  "time" : {
+    "start" : 1641888311833,
+    "stop" : 1641888312795,
+    "duration" : 962
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9725407579ab0e75",
+  "name" : "Then Input the details for search name \"abc4\" and click Search",
+  "time" : {
+    "start" : 1641886604946,
+    "stop" : 0,
+    "duration" : -1641886604946
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "702d5cf902d5539a",
+  "name" : "Then Enter the \"Test3\" , \"a24\"",
+  "time" : {
+    "start" : 1641883991475,
+    "stop" : 1641884040769,
+    "duration" : 49294
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "97905a3121a0aac0",
   "name" : "Then Enter the \"abc4\" , \"a24\"",
   "time" : {
     "start" : 1641886597053,
@@ -579,13 +389,203 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "e700e733762c2575",
-  "name" : "Then Input the details for search name \"abc8\" and click Search",
+  "uid" : "fcb399d43cae74c3",
+  "name" : "Then Input the details for search name \"Test5\" and click Search",
   "time" : {
-    "start" : 1641888872693,
-    "stop" : 1641888873828,
-    "duration" : 1135
+    "start" : 1641885033303,
+    "stop" : 0,
+    "duration" : -1641885033303
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "12749b09999365ae",
+  "name" : "Then Enter the \"abc5\" , \"a24\"",
+  "time" : {
+    "start" : 1641887201167,
+    "stop" : 1641887313740,
+    "duration" : 112573
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "e137d6ef45b9cdad",
+  "name" : "",
+  "time" : {
+    "start" : 1641815538939,
+    "stop" : 1641815538940,
+    "duration" : 1
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66d5067a3882b2f0",
+  "name" : "Then Input the details for search name \"abc2\" and click Search",
+  "time" : {
+    "start" : 1641886493894,
+    "stop" : 0,
+    "duration" : -1641886493894
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "32735164a4f24b7a",
+  "name" : "Given user is on homepage",
+  "time" : {
+    "start" : 1641915687196,
+    "stop" : 1641915710486,
+    "duration" : 23290
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5dbbb0ff5a78b33b",
+  "name" : "Then Enter the \"abc11\" , \"a24\"",
+  "time" : {
+    "start" : 1641893463943,
+    "stop" : 1641893475547,
+    "duration" : 11604
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ba58f6326853cb2",
+  "name" : "When Create Category is available",
+  "time" : {
+    "start" : 1641915710487,
+    "stop" : 1641915711269,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1aa9fa1e308b68ae",
+  "name" : "Then Enter the \"abc7\" , \"a24\"",
+  "time" : {
+    "start" : 1641888637810,
+    "stop" : 1641888645677,
+    "duration" : 7867
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b46569de2adce0f",
+  "name" : "And clicks on login button",
+  "time" : {
+    "start" : 1641815538938,
+    "stop" : 1641815538938,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "664704825241dd9",
+  "name" : "Then Input the details for search name \"abc7\" and click Search",
+  "time" : {
+    "start" : 1641888645677,
+    "stop" : 1641888651574,
+    "duration" : 5897
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1049d264bd24dd3",
+  "name" : "",
+  "time" : {
+    "start" : 1641815538987,
+    "stop" : 1641815538988,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f812b9e8e3006647",
+  "name" : "Then Input the details for search name \"Test7\" and click Search",
+  "time" : {
+    "start" : 1641885566316,
+    "stop" : 0,
+    "duration" : -1641885566316
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "628ca1b9fc6d0de5",
+  "name" : "Then the user must remain on login page displaying a message \"Your username is invalid!\"",
+  "time" : {
+    "start" : 1641815538973,
+    "stop" : 1641815538973,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "58d5ab784e9a05c0",
+  "name" : "When the user enters username as \"tomsmith\" and password as \"SuperSecretPassword!\"",
+  "time" : {
+    "start" : 1641815538938,
+    "stop" : 1641815538938,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2e6d4eebfa65c65d",
+  "name" : "Then Enter the \"Test6\" , \"a24\"",
+  "time" : {
+    "start" : 1641885392255,
+    "stop" : 1641885405594,
+    "duration" : 13339
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "982fa252d72b7a4e",
+  "name" : "Then Input the details for search name \"Test3\" and click Search",
+  "time" : {
+    "start" : 1641884040769,
+    "stop" : 0,
+    "duration" : -1641884040769
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "c7c7c28489773d73",
+  "name" : "Then Input the details for search name \"Test6\" and click Search",
+  "time" : {
+    "start" : 1641885405594,
+    "stop" : 0,
+    "duration" : -1641885405594
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "9540136c6b6af65",
+  "name" : "Then Enter the \"abc2\" , \"a24\"",
+  "time" : {
+    "start" : 1641886478993,
+    "stop" : 1641886493893,
+    "duration" : 14900
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "3909218bd242aa2",
+  "name" : "",
+  "time" : {
+    "start" : 1641815527658,
+    "stop" : 1641815527658,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "921bac3e1bca2d39",
+  "name" : "Then Enter the \"abc12\" , \"a24\"",
+  "time" : {
+    "start" : 1641915722620,
+    "stop" : 1641915734010,
+    "duration" : 11390
+  },
+  "status" : "failed",
   "severity" : "normal"
 } ]

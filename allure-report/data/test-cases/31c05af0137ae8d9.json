@@ -1,0 +1,295 @@
+{
+  "uid" : "31c05af0137ae8d9",
+  "name" : "Then the user must remain on login page displaying a message \"Your password is invalid!\"",
+  "fullName" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials.Then the user must remain on login page displaying a message \"Your password is invalid!\"",
+  "historyId" : "1e370574f7618db28515777916c6eb82",
+  "time" : {
+    "start" : 1641803026323,
+    "stop" : 1641803027138,
+    "duration" : 815
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641803026325,
+        "stop" : 1641803026350,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7d6a9e7c01652e37",
+        "name" : "Request",
+        "source" : "7d6a9e7c01652e37.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "fbfc0c32f7fc0a30",
+        "name" : "Response",
+        "source" : "fbfc0c32f7fc0a30.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641803026354,
+        "stop" : 1641803026366,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e5c13bfdbd3c87f",
+        "name" : "Request",
+        "source" : "1e5c13bfdbd3c87f.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "541ab3664d6116d6",
+        "name" : "Response",
+        "source" : "541ab3664d6116d6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/75e66ed5-c35e-4ef4-aaa2-1aabbe957074/click",
+      "time" : {
+        "start" : 1641803026372,
+        "stop" : 1641803026388,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4015944ed9a14452",
+        "name" : "Response",
+        "source" : "4015944ed9a14452.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641803026392,
+        "stop" : 1641803026974,
+        "duration" : 582
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af5492a1bfa1f2b6",
+        "name" : "Request",
+        "source" : "af5492a1bfa1f2b6.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/876a4a3d-6b75-4fb1-ade7-b3bb31ad8467/text",
+      "time" : {
+        "start" : 1641803026996,
+        "stop" : 1641803027032,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c703bdf37550e1ad",
+        "name" : "Response",
+        "source" : "c703bdf37550e1ad.json",
+        "type" : "application/json",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641803027033,
+        "stop" : 1641803027056,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d3871429f079359a",
+        "name" : "Request",
+        "source" : "d3871429f079359a.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "841ace9c88b1dcfa",
+        "name" : "Response",
+        "source" : "841ace9c88b1dcfa.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641803027060,
+        "stop" : 1641803027084,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d24165d0c95befa4",
+        "name" : "Request",
+        "source" : "d24165d0c95befa4.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "b2ded9566b99d146",
+        "name" : "Response",
+        "source" : "b2ded9566b99d146.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641803027087,
+        "stop" : 1641803027112,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1f43871992408b8b",
+        "name" : "Request",
+        "source" : "1f43871992408b8b.json",
+        "type" : "application/json",
+        "size" : 50
+      }, {
+        "uid" : "c1a872ce04d385f9",
+        "name" : "Response",
+        "source" : "c1a872ce04d385f9.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/ec053477-1cb7-4f83-b24c-09c794b2e10e/text",
+      "time" : {
+        "start" : 1641803027115,
+        "stop" : 1641803027138,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d68747c72407fbe3",
+        "name" : "Response",
+        "source" : "d68747c72407fbe3.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "d612d4e7ed03aaea",
+      "name" : "Response",
+      "source" : "d612d4e7ed03aaea.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 15,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then the user must remain on login page displaying a message \"Your password is invalid!\""
+  }, {
+    "name" : "package",
+    "value" : "To test the login functionality in \"The Internet Herokuapp\": The one where user logs in using invalid credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31c05af0137ae8d9.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}

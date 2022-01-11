@@ -1,0 +1,550 @@
+{
+  "uid" : "17d28db64b805b40",
+  "name" : "Then New Category Tab should be available",
+  "fullName" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window.Then New Category Tab should be available",
+  "historyId" : "82f67fceca510c0b5458f03dc79d0a98",
+  "time" : {
+    "start" : 1641915716206,
+    "stop" : 1641915717269,
+    "duration" : 1063
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 53,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1641915716208,
+        "stop" : 1641915716969,
+        "duration" : 761
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "bb6670e30078c818",
+        "name" : "Request",
+        "source" : "bb6670e30078c818.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "e3ef06566f77f53",
+        "name" : "Response",
+        "source" : "e3ef06566f77f53.json",
+        "type" : "application/json",
+        "size" : 1033
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1641915716975,
+        "stop" : 1641915717264,
+        "duration" : 289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2afbdb98e27e04d9",
+        "name" : "Request",
+        "source" : "2afbdb98e27e04d9.json",
+        "type" : "application/json",
+        "size" : 59
+      }, {
+        "uid" : "a5a6bfba01265e9e",
+        "name" : "Response",
+        "source" : "a5a6bfba01265e9e.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 4,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testClass",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then New Category Tab should be available"
+  }, {
+    "name" : "package",
+    "value" : "To test the purchasing categories in Taxonomy: User should be able to see create New category Window"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-97.0.4692.71"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2bd43109120e8704",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641896625998,
+        "stop" : 1641896630784,
+        "duration" : 4786
+      }
+    }, {
+      "uid" : "915409d9dd26fab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641893457348,
+        "stop" : 1641893458519,
+        "duration" : 1171
+      }
+    }, {
+      "uid" : "690131747b249ff7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641893272620,
+        "stop" : 0,
+        "duration" : -1641893272620
+      }
+    }, {
+      "uid" : "85f3f445f2231cfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641892962213,
+        "stop" : 1641892966933,
+        "duration" : 4720
+      }
+    }, {
+      "uid" : "5a406cca42d16e1d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641889075146,
+        "stop" : 0,
+        "duration" : -1641889075146
+      }
+    }, {
+      "uid" : "94df98f82c833361",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641888857616,
+        "stop" : 0,
+        "duration" : -1641888857616
+      }
+    }, {
+      "uid" : "b6194db065170440",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641888629644,
+        "stop" : 0,
+        "duration" : -1641888629644
+      }
+    }, {
+      "uid" : "e37a190ba10b2183",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641888266071,
+        "stop" : 1641888267097,
+        "duration" : 1026
+      }
+    }, {
+      "uid" : "7b71414c3931bfb2",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641887193866,
+        "stop" : 0,
+        "duration" : -1641887193866
+      }
+    }, {
+      "uid" : "cca20783144099ef",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641886590950,
+        "stop" : 0,
+        "duration" : -1641886590950
+      }
+    }, {
+      "uid" : "dce349da4d0c375a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641886472618,
+        "stop" : 0,
+        "duration" : -1641886472618
+      }
+    }, {
+      "uid" : "9d028be38f01f93c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641886125542,
+        "stop" : 0,
+        "duration" : -1641886125542
+      }
+    }, {
+      "uid" : "b4a7b74824774a84",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641885733070,
+        "stop" : 1641885734045,
+        "duration" : 975
+      }
+    }, {
+      "uid" : "a7312658760aedd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641885555124,
+        "stop" : 1641885556051,
+        "duration" : 927
+      }
+    }, {
+      "uid" : "ea111ef1b669e2c8",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641885386214,
+        "stop" : 0,
+        "duration" : -1641885386214
+      }
+    }, {
+      "uid" : "bf7770ccca1813a0",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641885200112,
+        "stop" : 0,
+        "duration" : -1641885200112
+      }
+    }, {
+      "uid" : "78858340fcde809",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641885015457,
+        "stop" : 1641885021597,
+        "duration" : 6140
+      }
+    }, {
+      "uid" : "9802552110abca3c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641884685257,
+        "stop" : 0,
+        "duration" : -1641884685257
+      }
+    }, {
+      "uid" : "79e516d47e6b66fe",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641884412419,
+        "stop" : 0,
+        "duration" : -1641884412419
+      }
+    }, {
+      "uid" : "ea4cd23b71e94709",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641884184713,
+        "stop" : 0,
+        "duration" : -1641884184713
+      }
+    }, {
+      "uid" : "c4dddcf68727823",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641883974814,
+        "stop" : 1641883990870,
+        "duration" : 16056
+      }
+    }, {
+      "uid" : "b8ca149356282ded",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641883570257,
+        "stop" : 0,
+        "duration" : -1641883570257
+      }
+    }, {
+      "uid" : "fe11c9552c976aa3",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641880844301,
+        "stop" : 0,
+        "duration" : -1641880844301
+      }
+    }, {
+      "uid" : "44da35dbd0e6cb76",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641880545551,
+        "stop" : 0,
+        "duration" : -1641880545551
+      }
+    }, {
+      "uid" : "de9ac2cd412063e0",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641879081697,
+        "stop" : 0,
+        "duration" : -1641879081697
+      }
+    }, {
+      "uid" : "21fe938a34ec6448",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641878765653,
+        "stop" : 0,
+        "duration" : -1641878765653
+      }
+    }, {
+      "uid" : "d22cdad52a0d128d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641877402323,
+        "stop" : 1641877407906,
+        "duration" : 5583
+      }
+    }, {
+      "uid" : "8f525b13ebac3887",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641877175597,
+        "stop" : 0,
+        "duration" : -1641877175597
+      }
+    }, {
+      "uid" : "67a08685772ec09f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641876842365,
+        "stop" : 0,
+        "duration" : -1641876842365
+      }
+    }, {
+      "uid" : "2fbdcc24755c5e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1641876683820,
+        "stop" : 0,
+        "duration" : -1641876683820
+      }
+    }, {
+      "uid" : "57ab998f7fe22155",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641875493997,
+        "stop" : 1641875494463,
+        "duration" : 466
+      }
+    }, {
+      "uid" : "19ed117566b4d7c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641836566897,
+        "stop" : 1641836567872,
+        "duration" : 975
+      }
+    }, {
+      "uid" : "24665eb65554263a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641836392894,
+        "stop" : 1641836393243,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "47b21525bd7321ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641836226457,
+        "stop" : 1641836226841,
+        "duration" : 384
+      }
+    }, {
+      "uid" : "56e365d257b15719",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641835879761,
+        "stop" : 1641835880140,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "2b49048c6646a9f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641835443570,
+        "stop" : 1641835444334,
+        "duration" : 764
+      }
+    }, {
+      "uid" : "eb68113ce42ccb1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641835226152,
+        "stop" : 1641835226791,
+        "duration" : 639
+      }
+    }, {
+      "uid" : "846288e6cbb9045a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641835104773,
+        "stop" : 1641835105502,
+        "duration" : 729
+      }
+    }, {
+      "uid" : "69df24709524b45",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641835009188,
+        "stop" : 1641835009860,
+        "duration" : 672
+      }
+    }, {
+      "uid" : "2a853e6fb090bdde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641834405134,
+        "stop" : 1641834405480,
+        "duration" : 346
+      }
+    }, {
+      "uid" : "e3c18f9f694f3205",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641834219571,
+        "stop" : 1641834219903,
+        "duration" : 332
+      }
+    }, {
+      "uid" : "8668dbfe7b7dfc7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641833976772,
+        "stop" : 1641833977840,
+        "duration" : 1068
+      }
+    }, {
+      "uid" : "e02b1f1a02880461",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641833745930,
+        "stop" : 1641833747025,
+        "duration" : 1095
+      }
+    }, {
+      "uid" : "64f240e30141e9b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641833461457,
+        "stop" : 1641833461958,
+        "duration" : 501
+      }
+    }, {
+      "uid" : "f3fe3b61d231dcf5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641833320025,
+        "stop" : 1641833320794,
+        "duration" : 769
+      }
+    }, {
+      "uid" : "271bbd6c4077e05b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641831037095,
+        "stop" : 1641831037546,
+        "duration" : 451
+      }
+    }, {
+      "uid" : "2606974287c37404",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641830907509,
+        "stop" : 1641830907888,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "8eb0933368144092",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641826696700,
+        "stop" : 1641826697619,
+        "duration" : 919
+      }
+    }, {
+      "uid" : "5d302cfa0c256050",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641826358174,
+        "stop" : 1641826358859,
+        "duration" : 685
+      }
+    }, {
+      "uid" : "3641edbf5f3dd659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641826089333,
+        "stop" : 1641826090338,
+        "duration" : 1005
+      }
+    }, {
+      "uid" : "495050068c3165ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641825599239,
+        "stop" : 1641825600055,
+        "duration" : 816
+      }
+    }, {
+      "uid" : "441d5909314d8bda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641824018292,
+        "stop" : 1641824019364,
+        "duration" : 1072
+      }
+    }, {
+      "uid" : "c855813bc07910f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1641823902719,
+        "stop" : 1641823903783,
+        "duration" : 1064
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "17d28db64b805b40.json",
+  "parameterValues" : [ "chrome-97.0.4692.71" ]
+}
